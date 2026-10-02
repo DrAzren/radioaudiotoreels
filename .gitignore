@@ -1,0 +1,21 @@
+# regenerable intermediates
+work/parts/
+work/stills/
+work/*.wav
+work/*.mp3
+work/video_noaudio.mp4
+work/__pycache__/
+work/*.log
+work/qc_tr.log
+work/t.py
+work/retr*.py
+work/chunk.wav
+work/c.wav
+work/captions.txt
+work/stills_times.txt
+work/master_hq.mp4
+work/qc/
+work/final16.wav
+work/qc_final.*
+work/qc_tr.py
+work/stills.py
