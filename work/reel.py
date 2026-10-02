@@ -15,6 +15,7 @@ import numpy as np
 import soundfile as sf
 
 from gfx import *  # noqa
+import warp
 
 CAP = json.load(open(os.path.join(HERE, "captions.json")))
 DUR = json.load(open(os.path.join(HERE, "edit_map.json")))["duration"]
@@ -46,12 +47,12 @@ for i in range(1, _nfr):  # smooth decay
     BANDS[i] = np.maximum(BANDS[i], BANDS[i - 1] * 0.78)
 
 
-def env_at(t):
-    return float(ENV[min(len(ENV) - 1, max(0, int(t * FPS)))])
+def env_at(t):  # t on the v1 (scene) timeline
+    return float(ENV[min(len(ENV) - 1, max(0, int(warp.to_new(t) * FPS)))])
 
 
 def bands_at(t):
-    return BANDS[min(len(BANDS) - 1, max(0, int(t * FPS)))]
+    return BANDS[min(len(BANDS) - 1, max(0, int(warp.to_new(t) * FPS)))]
 
 
 # ------------------------------------------------------------- cached graded sources
@@ -150,13 +151,14 @@ def onair(frame, t, t0, t1):
     return blit(frame, spr, 60, 176, a, 1.0, "l")
 
 
-SPEAKER_TAGS = [  # (t0, t1, label, dot)
-    (0.75, 3.5, "DOKTOR", TEAL),
+DOCTOR = "DR FAKRUL AZREN BIN AZHAR"
+SPEAKER_TAGS = [  # (t0, t1, label, dot)  -- v1 timeline
+    (0.75, 3.5, DOCTOR, TEAL),
     (7.35, 12.3, "HOS RADIO", CORAL),
-    (21.8, 25.2, "DOKTOR", TEAL),
     (67.0, 71.9, "HOS RADIO", CORAL),
-    (72.2, 75.6, "DOKTOR", TEAL),
+    (72.2, 75.6, DOCTOR, TEAL),
 ]
+NAME_CARD = (21.75, 25.6)  # full lower-third when the doctor is first heard in context
 ONAIR = [(7.35, 12.3), (67.0, 71.9)]
 
 
@@ -170,6 +172,14 @@ def speaker_tags(frame, t):
             frame = blit(frame, spr, x, 176, a, 1.0, "l")
     for a0, a1 in ONAIR:
         frame = onair(frame, t, a0, a1)
+    a = window(t, NAME_CARD[0], NAME_CARD[1], 0.35, 0.4)
+    if a > 0:
+        p = ease_out(prog(t, NAME_CARD[0], NAME_CARD[0] + 0.45))
+        x = 60 - (1 - p) * 40
+        bar = rrect_sprite(8, 104, 4, TEAL, 1.0)
+        frame = blit(frame, bar, x, 150, a, 1.0, "tl")
+        frame = text(frame, DOCTOR, "mont8", 40, x + 26, 180, a, WHITE, anchor="l", shadow=0.7)
+        frame = text(frame, "Tetamu \u00b7 Temu bual radio", "inter5", 30, x + 26, 230, a, DIM, anchor="l", shadow=0.7)
     return frame
 
 
@@ -839,21 +849,6 @@ def sc_final(t):
     return f
 
 
-def sc_end(t):
-    f = shot("final", t, 104.9, 116, 1.1, 1.16, (0.5, 0.4), (0.5, 0.39), "warm")
-    f = darken(blur(cv2.resize(f, (W // 4, H // 4)), 5), 0.62)
-    f = cv2.resize(f, (W, H))
-    f += radial_glow(AMBER, W / 2, 860, 600, 0.07)
-    f = rise(f, "REGULATE.", "anton", 150, W / 2, 680, t, 111.8, WHITE)
-    f = rise(f, "RETURN.", "anton", 150, W / 2, 840, t, 112.3, AMBER)
-    f = rise(f, "COMMUNICATE.", "anton", 150, W / 2, 1000, t, 112.8, WHITE)
-    f = pill(f, "Save untuk rujukan", W / 2, 1210, t, 113.7, WHITE, INK, 0.55, 34, "inter6",
-             border=(0.5, 0.5, 0.55))
-    f = rise(f, "Audio: temu bual radio Kool FM  ·  Visual ilustrasi dijana AI", "inter5", 24, W / 2, 1490, t,
-             114.0, DIM)
-    return f * (1 - ease_in(prog(t, 115.45, DUR)))
-
-
 SCENES = [
     (0.00, 0.55, sc_hook_kitchen),
     (0.55, 2.10, sc_hook_split),
@@ -881,8 +876,7 @@ SCENES = [
     (82.60, 99.60, sc_split),
     (99.60, 103.90, sc_avoid_full),
     (103.90, 105.50, sc_recap),
-    (105.50, 111.60, sc_final),
-    (111.60, DUR + 1, sc_end),
+    (105.50, 1e9, sc_final),
 ]
 TRANS = {
     0.55: ("whip", 0.2), 2.10: ("fade", 0.3), 3.70: ("whip", 0.25), 6.20: ("black", 0.24), 7.30: ("fade", 0.4),
@@ -890,7 +884,6 @@ TRANS = {
     26.25: ("zoom", 0.3), 29.00: ("fade", 0.3), 33.10: ("fade", 0.4), 39.60: ("fade", 0.45), 43.90: ("black", 0.6),
     49.40: ("fade", 0.2), 50.55: ("flash", 0.18), 51.80: ("fade", 0.35), 56.90: ("fade", 0.7), 59.10: ("fade", 0.35),
     66.95: ("whip", 0.25), 76.40: ("black", 0.45), 82.60: ("fade", 0.3), 99.60: ("whip", 0.3), 103.90: ("fade", 0.3),
-    111.60: ("fade", 0.7),
 }
 
 
@@ -1005,7 +998,7 @@ def cap_sprite(ci, idx_active):
 
 
 def captions(f, t):
-    if any(a <= t < b for a, b in CAP_HIDE):
+    if any(warp.to_new(a) <= t < warp.to_new(b) for a, b in CAP_HIDE):
         return f
     for ci, ch in enumerate(CAP["chunks"]):
         if ch["t0"] - 0.05 <= t < ch["t1"]:
@@ -1023,13 +1016,15 @@ def captions(f, t):
 
 # ------------------------------------------------------------- main
 def frame_at(fi):
-    t = fi / FPS
+    T = fi / FPS                     # output time (current edit)
+    t = warp.to_old(T)               # scene timeline time
     f = render_raw(t).astype(np.float32)
     f = speaker_tags(f, t)
-    f = captions(f, t)
+    f = captions(f, T)
     vig = 0.85
     grain = 0.05 if 43.9 <= t < 56.9 else 0.032
-    return finish(f, fi, grain, vig)
+    f = finish(f, fi, grain, vig)
+    return f * (1 - ease_in(prog(T, DUR - 0.9, DUR)))
 
 
 def to8(f):

@@ -1,0 +1,4618 @@
+{
+ "words": [
+  {
+   "s": 137.02,
+   "e": 137.2,
+   "w": "Dia",
+   "t0": 0.7,
+   "t1": 0.74,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 137.2,
+   "e": 137.36,
+   "w": "yang",
+   "t0": 0.74,
+   "t1": 0.9,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 137.36,
+   "e": 137.76,
+   "w": "penting",
+   "t0": 0.9,
+   "t1": 1.3,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 137.76,
+   "e": 137.86,
+   "w": "tu",
+   "t0": 1.3,
+   "t1": 1.4,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 137.86,
+   "e": 138.04,
+   "w": "dia",
+   "t0": 1.4,
+   "t1": 1.58,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 138.04,
+   "e": 138.26,
+   "w": "bukan",
+   "t0": 1.58,
+   "t1": 1.8,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 138.26,
+   "e": 138.5,
+   "w": "berapa",
+   "t0": 1.8,
+   "t1": 2.04,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 138.5,
+   "e": 138.76,
+   "w": "lama",
+   "t0": 2.04,
+   "t1": 2.3,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 138.76,
+   "e": 138.98,
+   "w": "lah.",
+   "t0": 2.3,
+   "t1": 2.52,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 139.0,
+   "e": 139.2,
+   "w": "Tapi",
+   "t0": 2.54,
+   "t1": 2.74,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 139.2,
+   "e": 139.3,
+   "w": "yang",
+   "t0": 2.74,
+   "t1": 2.84,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 139.3,
+   "e": 139.56,
+   "w": "penting",
+   "t0": 2.84,
+   "t1": 3.1,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 139.56,
+   "e": 139.98,
+   "w": "apa",
+   "t0": 3.1,
+   "t1": 3.28,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 139.98,
+   "e": 140.14,
+   "w": "yang",
+   "t0": 3.37,
+   "t1": 3.53,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 140.14,
+   "e": 140.72,
+   "w": "berlaku",
+   "t0": 3.53,
+   "t1": 4.11,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 140.72,
+   "e": 141.26,
+   "w": "selepas",
+   "t0": 4.11,
+   "t1": 4.65,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 141.26,
+   "e": 141.88,
+   "w": "space",
+   "t0": 4.65,
+   "t1": 5.27,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 141.88,
+   "e": 142.38,
+   "w": "tersebut.",
+   "t0": 5.27,
+   "t1": 5.77,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 0.0,
+   "e": 0.74,
+   "w": "Perlukah",
+   "t0": 7.14,
+   "t1": 7.88,
+   "seg": "host_q",
+   "speaker": "HOS"
+  },
+  {
+   "s": 0.74,
+   "e": 1.04,
+   "w": "kita",
+   "t0": 7.88,
+   "t1": 8.18,
+   "seg": "host_q",
+   "speaker": "HOS"
+  },
+  {
+   "s": 1.04,
+   "e": 1.38,
+   "w": "ni",
+   "t0": 8.18,
+   "t1": 8.52,
+   "seg": "host_q",
+   "speaker": "HOS"
+  },
+  {
+   "s": 1.38,
+   "e": 1.76,
+   "w": "beri",
+   "t0": 8.52,
+   "t1": 8.9,
+   "seg": "host_q",
+   "speaker": "HOS"
+  },
+  {
+   "s": 1.76,
+   "e": 2.12,
+   "w": "ruang",
+   "t0": 8.9,
+   "t1": 9.26,
+   "seg": "host_q",
+   "speaker": "HOS"
+  },
+  {
+   "s": 2.12,
+   "e": 2.3,
+   "w": "kepada",
+   "t0": 9.26,
+   "t1": 9.44,
+   "seg": "host_q",
+   "speaker": "HOS"
+  },
+  {
+   "s": 2.3,
+   "e": 3.02,
+   "w": "pasangan",
+   "t0": 9.44,
+   "t1": 10.16,
+   "seg": "host_q",
+   "speaker": "HOS"
+  },
+  {
+   "s": 3.02,
+   "e": 3.42,
+   "w": "kalau",
+   "t0": 10.16,
+   "t1": 10.56,
+   "seg": "host_q",
+   "speaker": "HOS"
+  },
+  {
+   "s": 3.42,
+   "e": 4.34,
+   "w": "berlaku",
+   "t0": 10.56,
+   "t1": 11.48,
+   "seg": "host_q",
+   "speaker": "HOS"
+  },
+  {
+   "s": 4.34,
+   "e": 4.96,
+   "w": "konflik?",
+   "t0": 11.48,
+   "t1": 12.1,
+   "seg": "host_q",
+   "speaker": "HOS"
+  },
+  {
+   "s": 10.32,
+   "e": 10.88,
+   "w": "Setiap",
+   "t0": 12.61,
+   "t1": 13.17,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 10.88,
+   "e": 11.06,
+   "w": "kali",
+   "t0": 13.17,
+   "t1": 13.35,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 11.06,
+   "e": 11.36,
+   "w": "nak",
+   "t0": 13.35,
+   "t1": 13.65,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 11.36,
+   "e": 12.36,
+   "w": "bercakap",
+   "t0": 13.65,
+   "t1": 14.65,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 12.36,
+   "e": 12.48,
+   "w": "je",
+   "t0": 14.65,
+   "t1": 14.77,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 12.48,
+   "e": 13.36,
+   "w": "bangun",
+   "t0": 14.77,
+   "t1": 15.12,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 13.36,
+   "e": 13.86,
+   "w": "keluar",
+   "t0": 15.57,
+   "t1": 15.87,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 13.86,
+   "e": 14.5,
+   "w": "pergi",
+   "t0": 16.06,
+   "t1": 16.7,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 14.5,
+   "e": 14.74,
+   "w": "kedai",
+   "t0": 16.7,
+   "t1": 16.94,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 14.74,
+   "e": 15.12,
+   "w": "mamak",
+   "t0": 16.94,
+   "t1": 17.32,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 15.12,
+   "e": 15.62,
+   "w": "contoh",
+   "t0": 17.32,
+   "t1": 17.82,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 15.62,
+   "e": 16.32,
+   "w": "ataupun",
+   "t0": 17.82,
+   "t1": 18.52,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 16.32,
+   "e": 16.98,
+   "w": "bangun",
+   "t0": 18.52,
+   "t1": 19.18,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 16.98,
+   "e": 17.44,
+   "w": "keluar",
+   "t0": 19.18,
+   "t1": 19.64,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 17.44,
+   "e": 17.96,
+   "w": "pergi",
+   "t0": 19.64,
+   "t1": 20.16,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 17.96,
+   "e": 18.42,
+   "w": "jogging",
+   "t0": 20.16,
+   "t1": 20.62,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 18.42,
+   "e": 19.58,
+   "w": "contoh.",
+   "t0": 20.62,
+   "t1": 21.26,
+   "seg": "host_mamak",
+   "speaker": "HOS"
+  },
+  {
+   "s": 50.2,
+   "e": 50.72,
+   "w": "Sebenarnya,",
+   "t0": 21.76,
+   "t1": 22.17,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 51.5,
+   "e": 51.68,
+   "w": "bila",
+   "t0": 22.24,
+   "t1": 22.42,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 51.68,
+   "e": 51.94,
+   "w": "orang",
+   "t0": 22.42,
+   "t1": 22.68,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 51.94,
+   "e": 52.48,
+   "w": "bergaduh",
+   "t0": 22.68,
+   "t1": 23.22,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 52.48,
+   "e": 52.66,
+   "w": "ni",
+   "t0": 23.22,
+   "t1": 23.4,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 52.66,
+   "e": 52.94,
+   "w": "dia",
+   "t0": 23.4,
+   "t1": 23.68,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 52.94,
+   "e": 53.22,
+   "w": "memang",
+   "t0": 23.68,
+   "t1": 23.96,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 53.22,
+   "e": 53.78,
+   "w": "jenis",
+   "t0": 23.96,
+   "t1": 24.52,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 53.78,
+   "e": 54.0,
+   "w": "yang",
+   "t0": 24.52,
+   "t1": 24.74,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 54.0,
+   "e": 54.44,
+   "w": "suka",
+   "t0": 24.74,
+   "t1": 25.18,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 54.44,
+   "e": 54.92,
+   "w": "avoid",
+   "t0": 25.18,
+   "t1": 25.66,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 54.92,
+   "e": 55.52,
+   "w": "konflik.",
+   "t0": 25.66,
+   "t1": 26.14,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 57.68,
+   "e": 57.86,
+   "w": "Dia",
+   "t0": 26.24,
+   "t1": 26.42,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 57.86,
+   "e": 58.38,
+   "w": "akan",
+   "t0": 26.42,
+   "t1": 26.94,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 58.38,
+   "e": 58.78,
+   "w": "rasa",
+   "t0": 26.94,
+   "t1": 27.34,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 58.78,
+   "e": 59.14,
+   "w": "dia",
+   "t0": 27.34,
+   "t1": 27.7,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 59.14,
+   "e": 59.3,
+   "w": "tak",
+   "t0": 27.7,
+   "t1": 27.86,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 59.3,
+   "e": 59.62,
+   "w": "selesa",
+   "t0": 27.86,
+   "t1": 28.18,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 59.62,
+   "e": 59.84,
+   "w": "dengan",
+   "t0": 28.18,
+   "t1": 28.4,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 59.84,
+   "e": 60.32,
+   "w": "confrontation.",
+   "t0": 28.4,
+   "t1": 28.88,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 60.48,
+   "e": 60.78,
+   "w": "Jadi",
+   "t0": 29.04,
+   "t1": 29.34,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 60.78,
+   "e": 61.08,
+   "w": "dia",
+   "t0": 29.34,
+   "t1": 29.64,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 61.08,
+   "e": 61.28,
+   "w": "punya",
+   "t0": 29.64,
+   "t1": 29.84,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 61.28,
+   "e": 61.9,
+   "w": "instinct",
+   "t0": 29.84,
+   "t1": 30.46,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 61.9,
+   "e": 62.02,
+   "w": "tu",
+   "t0": 30.46,
+   "t1": 30.58,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 62.02,
+   "e": 62.28,
+   "w": "adalah",
+   "t0": 30.58,
+   "t1": 30.84,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 62.28,
+   "e": 63.02,
+   "w": "better",
+   "t0": 30.84,
+   "t1": 31.58,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 63.02,
+   "e": 63.26,
+   "w": "aku",
+   "t0": 31.58,
+   "t1": 31.82,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 63.26,
+   "e": 63.76,
+   "w": "jauhkan",
+   "t0": 31.82,
+   "t1": 32.32,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 63.76,
+   "e": 63.94,
+   "w": "je.",
+   "t0": 32.32,
+   "t1": 32.5,
+   "seg": "doc_avoid",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 68.48,
+   "e": 68.8,
+   "w": "Tapi",
+   "t0": 33.17,
+   "t1": 33.49,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 68.8,
+   "e": 69.0,
+   "w": "ada",
+   "t0": 33.49,
+   "t1": 33.69,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 69.0,
+   "e": 69.22,
+   "w": "juga",
+   "t0": 33.69,
+   "t1": 33.91,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 69.22,
+   "e": 69.56,
+   "w": "orang",
+   "t0": 33.91,
+   "t1": 34.25,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 69.56,
+   "e": 70.04,
+   "w": "yang",
+   "t0": 34.25,
+   "t1": 34.73,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 70.04,
+   "e": 70.52,
+   "w": "dia",
+   "t0": 34.73,
+   "t1": 35.21,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 70.52,
+   "e": 70.82,
+   "w": "macam",
+   "t0": 35.21,
+   "t1": 35.51,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 70.82,
+   "e": 71.26,
+   "w": "shutdown",
+   "t0": 35.51,
+   "t1": 35.95,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 71.26,
+   "e": 72.16,
+   "w": "disebabkan",
+   "t0": 35.95,
+   "t1": 36.85,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 72.16,
+   "e": 72.42,
+   "w": "oleh",
+   "t0": 36.85,
+   "t1": 37.11,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 72.42,
+   "e": 72.94,
+   "w": "dia",
+   "t0": 37.11,
+   "t1": 37.63,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 72.94,
+   "e": 73.28,
+   "w": "punya",
+   "t0": 37.63,
+   "t1": 37.97,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 73.28,
+   "e": 73.96,
+   "w": "emotionally",
+   "t0": 37.97,
+   "t1": 38.65,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 73.96,
+   "e": 74.4,
+   "w": "overwhelmed",
+   "t0": 38.65,
+   "t1": 39.09,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 74.4,
+   "e": 74.82,
+   "w": "tu.",
+   "t0": 39.09,
+   "t1": 39.51,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 74.9,
+   "e": 75.46,
+   "w": "Maksudnya",
+   "t0": 39.59,
+   "t1": 40.15,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 75.46,
+   "e": 75.98,
+   "w": "dia",
+   "t0": 40.15,
+   "t1": 40.67,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 75.98,
+   "e": 76.42,
+   "w": "perlukan",
+   "t0": 40.67,
+   "t1": 41.11,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 76.42,
+   "e": 76.78,
+   "w": "masa",
+   "t0": 41.11,
+   "t1": 41.47,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 76.78,
+   "e": 77.4,
+   "w": "untuk",
+   "t0": 41.47,
+   "t1": 42.09,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 77.4,
+   "e": 78.14,
+   "w": "regulate",
+   "t0": 42.09,
+   "t1": 42.49,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 78.14,
+   "e": 78.56,
+   "w": "emosi",
+   "t0": 42.81,
+   "t1": 43.23,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 78.56,
+   "e": 78.82,
+   "w": "dia.",
+   "t0": 43.23,
+   "t1": 43.49,
+   "seg": "doc_shutdown",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 79.0,
+   "e": 79.68,
+   "w": "Kadang-kadang",
+   "t0": 44.04,
+   "t1": 44.72,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 79.68,
+   "e": 80.0,
+   "w": "benda",
+   "t0": 44.72,
+   "t1": 45.04,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 80.0,
+   "e": 80.26,
+   "w": "ni",
+   "t0": 45.04,
+   "t1": 45.3,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 80.26,
+   "e": 80.58,
+   "w": "dia",
+   "t0": 45.3,
+   "t1": 45.62,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 80.58,
+   "e": 81.04,
+   "w": "berkait",
+   "t0": 45.62,
+   "t1": 46.08,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 81.04,
+   "e": 81.2,
+   "w": "dengan",
+   "t0": 46.08,
+   "t1": 46.24,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 81.2,
+   "e": 81.64,
+   "w": "cara",
+   "t0": 46.24,
+   "t1": 46.68,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 81.64,
+   "e": 82.08,
+   "w": "orang",
+   "t0": 46.68,
+   "t1": 47.12,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 82.08,
+   "e": 82.18,
+   "w": "tu",
+   "t0": 47.12,
+   "t1": 47.22,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 82.18,
+   "e": 82.58,
+   "w": "dibesarkan.",
+   "t0": 47.22,
+   "t1": 47.62,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 82.7,
+   "e": 83.28,
+   "w": "Contohnya",
+   "t0": 47.74,
+   "t1": 48.32,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 83.28,
+   "e": 83.46,
+   "w": "masa",
+   "t0": 48.32,
+   "t1": 48.5,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 83.46,
+   "e": 83.96,
+   "w": "kecil.",
+   "t0": 48.5,
+   "t1": 49.0,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 85.02,
+   "e": 85.22,
+   "w": "Bila",
+   "t0": 49.35,
+   "t1": 49.5,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 85.22,
+   "e": 85.34,
+   "w": "dia",
+   "t0": 49.5,
+   "t1": 49.62,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 85.34,
+   "e": 85.62,
+   "w": "cuba",
+   "t0": 49.62,
+   "t1": 49.9,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 85.62,
+   "e": 85.7,
+   "w": "nak",
+   "t0": 49.9,
+   "t1": 49.98,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 85.7,
+   "e": 85.92,
+   "w": "bagi",
+   "t0": 49.98,
+   "t1": 50.2,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 85.92,
+   "e": 86.22,
+   "w": "pendapat,",
+   "t0": 50.2,
+   "t1": 50.5,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 87.68,
+   "e": 88.22,
+   "w": "ayah",
+   "t0": 50.59,
+   "t1": 51.13,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 88.22,
+   "e": 88.32,
+   "w": "dia",
+   "t0": 51.13,
+   "t1": 51.23,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 88.32,
+   "e": 88.64,
+   "w": "marah",
+   "t0": 51.23,
+   "t1": 51.55,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 88.64,
+   "e": 88.74,
+   "w": "je.",
+   "t0": 51.55,
+   "t1": 51.67,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 88.84,
+   "e": 89.1,
+   "w": "Jadi",
+   "t0": 51.75,
+   "t1": 52.01,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 89.1,
+   "e": 89.36,
+   "w": "dia",
+   "t0": 52.01,
+   "t1": 52.27,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 89.36,
+   "e": 89.74,
+   "w": "belajar.",
+   "t0": 52.27,
+   "t1": 52.65,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 90.02,
+   "e": 90.54,
+   "w": "Lepas",
+   "t0": 53.09,
+   "t1": 53.43,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 90.54,
+   "e": 90.66,
+   "w": "tu",
+   "t0": 53.43,
+   "t1": 53.55,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 90.66,
+   "e": 90.84,
+   "w": "kalau",
+   "t0": 53.55,
+   "t1": 53.73,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 90.84,
+   "e": 91.04,
+   "w": "ada",
+   "t0": 53.73,
+   "t1": 53.93,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 91.04,
+   "e": 91.48,
+   "w": "konflik",
+   "t0": 53.93,
+   "t1": 54.37,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 91.48,
+   "e": 91.62,
+   "w": "je",
+   "t0": 54.37,
+   "t1": 54.51,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 91.62,
+   "e": 91.84,
+   "w": "lebih",
+   "t0": 54.51,
+   "t1": 54.73,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 91.84,
+   "e": 92.04,
+   "w": "baik",
+   "t0": 54.73,
+   "t1": 54.93,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 92.04,
+   "e": 92.12,
+   "w": "aku",
+   "t0": 54.93,
+   "t1": 55.01,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 92.12,
+   "e": 92.4,
+   "w": "diam.",
+   "t0": 55.01,
+   "t1": 55.29,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 92.66,
+   "e": 93.06,
+   "w": "Itu",
+   "t0": 55.55,
+   "t1": 55.95,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 93.06,
+   "e": 93.24,
+   "w": "lagi",
+   "t0": 55.95,
+   "t1": 56.13,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 93.24,
+   "e": 93.52,
+   "w": "selamat",
+   "t0": 56.13,
+   "t1": 56.41,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 93.52,
+   "e": 93.74,
+   "w": "untuk",
+   "t0": 56.41,
+   "t1": 56.63,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 93.74,
+   "e": 93.9,
+   "w": "aku.",
+   "t0": 56.63,
+   "t1": 56.79,
+   "seg": "doc_child",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 94.08,
+   "e": 94.28,
+   "w": "Jadi",
+   "t0": 57.42,
+   "t1": 57.62,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 94.28,
+   "e": 94.46,
+   "w": "kita",
+   "t0": 57.62,
+   "t1": 57.8,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 94.46,
+   "e": 94.62,
+   "w": "kena",
+   "t0": 57.8,
+   "t1": 57.96,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 94.62,
+   "e": 94.88,
+   "w": "beza",
+   "t0": 57.96,
+   "t1": 58.22,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 94.88,
+   "e": 95.02,
+   "w": "kat",
+   "t0": 58.22,
+   "t1": 58.36,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 95.02,
+   "e": 95.2,
+   "w": "sini",
+   "t0": 58.36,
+   "t1": 58.54,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 95.2,
+   "e": 95.34,
+   "w": "dua",
+   "t0": 58.54,
+   "t1": 58.68,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 95.34,
+   "e": 95.64,
+   "w": "benda.",
+   "t0": 58.68,
+   "t1": 58.98,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 95.78,
+   "e": 96.3,
+   "w": "Dia",
+   "t0": 59.12,
+   "t1": 59.64,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 96.3,
+   "e": 97.34,
+   "w": "perlukan",
+   "t0": 59.64,
+   "t1": 60.68,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 97.34,
+   "e": 97.72,
+   "w": "masa",
+   "t0": 60.68,
+   "t1": 61.06,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 97.72,
+   "e": 98.36,
+   "w": "untuk",
+   "t0": 61.06,
+   "t1": 61.7,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 98.36,
+   "e": 98.88,
+   "w": "regulate",
+   "t0": 61.7,
+   "t1": 62.22,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 98.88,
+   "e": 99.38,
+   "w": "emosi",
+   "t0": 62.22,
+   "t1": 62.72,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 99.38,
+   "e": 99.7,
+   "w": "dia",
+   "t0": 62.72,
+   "t1": 63.04,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 99.7,
+   "e": 100.58,
+   "w": "ataupun",
+   "t0": 63.04,
+   "t1": 63.36,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 100.58,
+   "e": 100.94,
+   "w": "dia",
+   "t0": 63.75,
+   "t1": 64.11,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 100.94,
+   "e": 101.32,
+   "w": "memang",
+   "t0": 64.11,
+   "t1": 64.49,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 101.32,
+   "e": 101.74,
+   "w": "jenis",
+   "t0": 64.49,
+   "t1": 64.91,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 101.74,
+   "e": 101.9,
+   "w": "nak",
+   "t0": 64.91,
+   "t1": 65.07,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 101.9,
+   "e": 102.58,
+   "w": "mengelakkan",
+   "t0": 65.07,
+   "t1": 65.75,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 102.58,
+   "e": 103.08,
+   "w": "semua",
+   "t0": 65.75,
+   "t1": 66.03,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 103.08,
+   "e": 103.46,
+   "w": "masalah.",
+   "t0": 66.22,
+   "t1": 66.54,
+   "seg": "doc_two",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 105.42,
+   "e": 105.52,
+   "w": "Faham,",
+   "t0": 67.0,
+   "t1": 67.1,
+   "seg": "host_time",
+   "speaker": "HOS"
+  },
+  {
+   "s": 105.52,
+   "e": 105.78,
+   "w": "dia",
+   "t0": 67.1,
+   "t1": 67.36,
+   "seg": "host_time",
+   "speaker": "HOS"
+  },
+  {
+   "s": 105.78,
+   "e": 106.04,
+   "w": "nak",
+   "t0": 67.36,
+   "t1": 67.62,
+   "seg": "host_time",
+   "speaker": "HOS"
+  },
+  {
+   "s": 106.04,
+   "e": 106.9,
+   "w": "space.",
+   "t0": 67.62,
+   "t1": 68.48,
+   "seg": "host_time",
+   "speaker": "HOS"
+  },
+  {
+   "s": 107.18,
+   "e": 107.34,
+   "w": "Dia",
+   "t0": 68.76,
+   "t1": 68.92,
+   "seg": "host_time",
+   "speaker": "HOS"
+  },
+  {
+   "s": 107.34,
+   "e": 107.6,
+   "w": "nak",
+   "t0": 68.92,
+   "t1": 69.18,
+   "seg": "host_time",
+   "speaker": "HOS"
+  },
+  {
+   "s": 107.6,
+   "e": 108.16,
+   "w": "ruang.",
+   "t0": 69.18,
+   "t1": 69.74,
+   "seg": "host_time",
+   "speaker": "HOS"
+  },
+  {
+   "s": 108.5,
+   "e": 109.02,
+   "w": "Contoh",
+   "t0": 69.93,
+   "t1": 70.33,
+   "seg": "host_time",
+   "speaker": "HOS"
+  },
+  {
+   "s": 109.02,
+   "e": 109.46,
+   "w": "berapa",
+   "t0": 70.33,
+   "t1": 70.77,
+   "seg": "host_time",
+   "speaker": "HOS"
+  },
+  {
+   "s": 109.46,
+   "e": 109.74,
+   "w": "jam,",
+   "t0": 70.77,
+   "t1": 71.05,
+   "seg": "host_time",
+   "speaker": "HOS"
+  },
+  {
+   "s": 109.84,
+   "e": 110.1,
+   "w": "berapa",
+   "t0": 71.15,
+   "t1": 71.41,
+   "seg": "host_time",
+   "speaker": "HOS"
+  },
+  {
+   "s": 110.1,
+   "e": 110.46,
+   "w": "hari.",
+   "t0": 71.41,
+   "t1": 71.74,
+   "seg": "host_time",
+   "speaker": "HOS"
+  },
+  {
+   "s": 125.52,
+   "e": 125.66,
+   "w": "dia",
+   "t0": 72.16,
+   "t1": 72.3,
+   "seg": "doc_noNumber",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 125.66,
+   "e": 125.82,
+   "w": "tu",
+   "t0": 72.3,
+   "t1": 72.46,
+   "seg": "doc_noNumber",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 125.82,
+   "e": 125.96,
+   "w": "tak",
+   "t0": 72.46,
+   "t1": 72.6,
+   "seg": "doc_noNumber",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 125.96,
+   "e": 126.08,
+   "w": "ada",
+   "t0": 72.6,
+   "t1": 72.72,
+   "seg": "doc_noNumber",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 126.08,
+   "e": 126.8,
+   "w": "angka",
+   "t0": 72.72,
+   "t1": 73.44,
+   "seg": "doc_noNumber",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 126.8,
+   "e": 126.96,
+   "w": "yang",
+   "t0": 73.44,
+   "t1": 73.6,
+   "seg": "doc_noNumber",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 126.96,
+   "e": 127.44,
+   "w": "spesifik",
+   "t0": 73.6,
+   "t1": 74.08,
+   "seg": "doc_noNumber",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 127.44,
+   "e": 127.58,
+   "w": "lah",
+   "t0": 74.08,
+   "t1": 74.22,
+   "seg": "doc_noNumber",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 127.58,
+   "e": 127.88,
+   "w": "sebenarnya.",
+   "t0": 74.22,
+   "t1": 74.52,
+   "seg": "doc_noNumber",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 130.14,
+   "e": 130.34,
+   "w": "Ada",
+   "t0": 74.65,
+   "t1": 74.85,
+   "seg": "doc_noNumber",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 130.34,
+   "e": 130.56,
+   "w": "orang",
+   "t0": 74.85,
+   "t1": 75.07,
+   "seg": "doc_noNumber",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 130.56,
+   "e": 130.88,
+   "w": "perlukan",
+   "t0": 75.07,
+   "t1": 75.39,
+   "seg": "doc_noNumber",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 130.88,
+   "e": 131.06,
+   "w": "dua",
+   "t0": 75.39,
+   "t1": 75.57,
+   "seg": "doc_noNumber",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 131.06,
+   "e": 131.3,
+   "w": "tiga",
+   "t0": 75.57,
+   "t1": 75.81,
+   "seg": "doc_noNumber",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 131.3,
+   "e": 131.52,
+   "w": "jam.",
+   "t0": 75.81,
+   "t1": 75.94,
+   "seg": "doc_noNumber",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 137.02,
+   "e": 137.2,
+   "w": "Dia",
+   "t0": 76.89,
+   "t1": 76.93,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 137.2,
+   "e": 137.36,
+   "w": "yang",
+   "t0": 76.93,
+   "t1": 77.09,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 137.36,
+   "e": 137.76,
+   "w": "penting",
+   "t0": 77.09,
+   "t1": 77.49,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 137.76,
+   "e": 137.86,
+   "w": "tu",
+   "t0": 77.49,
+   "t1": 77.59,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 137.86,
+   "e": 138.04,
+   "w": "dia",
+   "t0": 77.59,
+   "t1": 77.77,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 138.04,
+   "e": 138.26,
+   "w": "bukan",
+   "t0": 77.77,
+   "t1": 77.99,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 138.26,
+   "e": 138.5,
+   "w": "berapa",
+   "t0": 77.99,
+   "t1": 78.23,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 138.5,
+   "e": 138.76,
+   "w": "lama",
+   "t0": 78.23,
+   "t1": 78.49,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 138.76,
+   "e": 138.98,
+   "w": "lah.",
+   "t0": 78.49,
+   "t1": 78.71,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 139.0,
+   "e": 139.2,
+   "w": "Tapi",
+   "t0": 78.73,
+   "t1": 78.93,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 139.2,
+   "e": 139.3,
+   "w": "yang",
+   "t0": 78.93,
+   "t1": 79.03,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 139.3,
+   "e": 139.56,
+   "w": "penting",
+   "t0": 79.03,
+   "t1": 79.29,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 139.56,
+   "e": 139.98,
+   "w": "apa",
+   "t0": 79.29,
+   "t1": 79.47,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 139.98,
+   "e": 140.14,
+   "w": "yang",
+   "t0": 79.56,
+   "t1": 79.72,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 140.14,
+   "e": 140.72,
+   "w": "berlaku",
+   "t0": 79.72,
+   "t1": 80.3,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 140.72,
+   "e": 141.26,
+   "w": "selepas",
+   "t0": 80.3,
+   "t1": 80.84,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 141.26,
+   "e": 141.88,
+   "w": "space",
+   "t0": 80.84,
+   "t1": 81.46,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 141.88,
+   "e": 142.38,
+   "w": "tersebut.",
+   "t0": 81.46,
+   "t1": 81.96,
+   "seg": "doc_key",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 143.14,
+   "e": 143.66,
+   "w": "Contohnya",
+   "t0": 82.87,
+   "t1": 83.39,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 143.66,
+   "e": 144.18,
+   "w": "kalau",
+   "t0": 83.39,
+   "t1": 83.91,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 144.18,
+   "e": 144.72,
+   "w": "kita",
+   "t0": 83.91,
+   "t1": 84.45,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 144.72,
+   "e": 145.0,
+   "w": "tengah",
+   "t0": 84.45,
+   "t1": 84.73,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 145.0,
+   "e": 145.3,
+   "w": "marah",
+   "t0": 84.73,
+   "t1": 85.03,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 145.3,
+   "e": 145.54,
+   "w": "sekarang",
+   "t0": 85.03,
+   "t1": 85.27,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 145.54,
+   "e": 145.8,
+   "w": "kan.",
+   "t0": 85.27,
+   "t1": 85.53,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 147.68,
+   "e": 148.08,
+   "w": "Lepas",
+   "t0": 87.41,
+   "t1": 87.81,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 148.08,
+   "e": 148.26,
+   "w": "tu",
+   "t0": 87.81,
+   "t1": 87.99,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 148.26,
+   "e": 148.6,
+   "w": "malam",
+   "t0": 87.99,
+   "t1": 88.33,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 148.6,
+   "e": 148.84,
+   "w": "kita",
+   "t0": 88.33,
+   "t1": 88.57,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 148.84,
+   "e": 149.22,
+   "w": "sambung",
+   "t0": 88.57,
+   "t1": 88.95,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 149.22,
+   "e": 149.52,
+   "w": "bincang",
+   "t0": 88.95,
+   "t1": 89.25,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 149.52,
+   "e": 149.86,
+   "w": "balik.",
+   "t0": 89.25,
+   "t1": 89.59,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 149.88,
+   "e": 150.34,
+   "w": "Ini",
+   "t0": 89.74,
+   "t1": 89.98,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 150.34,
+   "e": 150.6,
+   "w": "adalah",
+   "t0": 89.98,
+   "t1": 90.24,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 150.6,
+   "e": 151.04,
+   "w": "healthy",
+   "t0": 90.24,
+   "t1": 90.68,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 151.04,
+   "e": 151.38,
+   "w": "space.",
+   "t0": 90.68,
+   "t1": 91.01,
+   "seg": "doc_healthy",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 153.3,
+   "e": 153.58,
+   "w": "Itu",
+   "t0": 91.41,
+   "t1": 91.68,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 153.58,
+   "e": 154.08,
+   "w": "berbeza",
+   "t0": 91.68,
+   "t1": 92.18,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 154.08,
+   "e": 154.32,
+   "w": "dengan",
+   "t0": 92.18,
+   "t1": 92.42,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 154.32,
+   "e": 154.78,
+   "w": "orang",
+   "t0": 92.42,
+   "t1": 92.88,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 154.78,
+   "e": 155.0,
+   "w": "yang",
+   "t0": 92.88,
+   "t1": 93.1,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 155.0,
+   "e": 155.46,
+   "w": "tiba-tiba",
+   "t0": 93.1,
+   "t1": 93.56,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 155.46,
+   "e": 155.96,
+   "w": "hilang.",
+   "t0": 93.56,
+   "t1": 94.06,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 155.96,
+   "e": 156.1,
+   "w": "Tak",
+   "t0": 94.06,
+   "t1": 94.2,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 156.1,
+   "e": 156.38,
+   "w": "jawab",
+   "t0": 94.2,
+   "t1": 94.48,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 156.38,
+   "e": 156.82,
+   "w": "mesej.",
+   "t0": 94.48,
+   "t1": 94.92,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 156.82,
+   "e": 157.16,
+   "w": "Terus",
+   "t0": 94.92,
+   "t1": 95.26,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 157.16,
+   "e": 157.42,
+   "w": "block",
+   "t0": 95.26,
+   "t1": 95.52,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 157.42,
+   "e": 157.88,
+   "w": "pasangan",
+   "t0": 95.52,
+   "t1": 95.98,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 157.88,
+   "e": 158.1,
+   "w": "dia.",
+   "t0": 95.98,
+   "t1": 96.2,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 158.34,
+   "e": 158.68,
+   "w": "Lepas",
+   "t0": 96.44,
+   "t1": 96.6,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 158.68,
+   "e": 158.76,
+   "w": "tu",
+   "t0": 96.76,
+   "t1": 96.84,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 158.76,
+   "e": 158.92,
+   "w": "tiga",
+   "t0": 96.84,
+   "t1": 97.0,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 158.92,
+   "e": 159.12,
+   "w": "hari",
+   "t0": 97.0,
+   "t1": 97.2,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 159.12,
+   "e": 159.46,
+   "w": "kemudian",
+   "t0": 97.2,
+   "t1": 97.54,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 159.46,
+   "e": 159.72,
+   "w": "tiba-tiba",
+   "t0": 97.54,
+   "t1": 97.8,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 159.72,
+   "e": 160.12,
+   "w": "muncul.",
+   "t0": 97.8,
+   "t1": 98.2,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 160.12,
+   "e": 160.28,
+   "w": "macam",
+   "t0": 98.2,
+   "t1": 98.36,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 160.28,
+   "e": 160.36,
+   "w": "tak",
+   "t0": 98.36,
+   "t1": 98.44,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 160.36,
+   "e": 160.48,
+   "w": "ada",
+   "t0": 98.44,
+   "t1": 98.56,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 160.48,
+   "e": 160.64,
+   "w": "benda",
+   "t0": 98.56,
+   "t1": 98.72,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 160.64,
+   "e": 160.82,
+   "w": "yang",
+   "t0": 98.72,
+   "t1": 98.9,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 160.82,
+   "e": 161.16,
+   "w": "berlaku.",
+   "t0": 98.9,
+   "t1": 99.23,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 163.3,
+   "e": 163.7,
+   "w": "Yang",
+   "t0": 99.28,
+   "t1": 99.68,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 163.7,
+   "e": 163.82,
+   "w": "tu",
+   "t0": 99.68,
+   "t1": 99.8,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 163.82,
+   "e": 164.02,
+   "w": "memang",
+   "t0": 99.8,
+   "t1": 100.0,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 164.02,
+   "e": 164.36,
+   "w": "satu",
+   "t0": 100.0,
+   "t1": 100.34,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 164.36,
+   "e": 164.86,
+   "w": "bentuk",
+   "t0": 100.34,
+   "t1": 100.84,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 164.86,
+   "e": 165.44,
+   "w": "avoidance",
+   "t0": 100.84,
+   "t1": 101.42,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 165.56,
+   "e": 166.22,
+   "w": "ataupun",
+   "t0": 101.54,
+   "t1": 102.2,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 166.88,
+   "e": 167.12,
+   "w": "stonewall.",
+   "t0": 102.71,
+   "t1": 102.95,
+   "seg": "doc_avoidance",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 167.38,
+   "e": 167.76,
+   "w": "Jadi",
+   "t0": 103.94,
+   "t1": 104.32,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 167.76,
+   "e": 168.2,
+   "w": "konsep",
+   "t0": 104.32,
+   "t1": 104.76,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 168.2,
+   "e": 168.34,
+   "w": "dia",
+   "t0": 104.76,
+   "t1": 104.9,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 168.34,
+   "e": 168.68,
+   "w": "sebenarnya",
+   "t0": 104.9,
+   "t1": 105.24,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 168.68,
+   "e": 169.0,
+   "w": "macam",
+   "t0": 105.24,
+   "t1": 105.56,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 169.0,
+   "e": 169.68,
+   "w": "space",
+   "t0": 105.56,
+   "t1": 105.96,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 169.68,
+   "e": 169.82,
+   "w": "yang",
+   "t0": 106.1,
+   "t1": 106.24,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 169.82,
+   "e": 170.16,
+   "w": "sihat",
+   "t0": 106.24,
+   "t1": 106.58,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 170.16,
+   "e": 170.38,
+   "w": "ni.",
+   "t0": 106.58,
+   "t1": 106.8,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 170.54,
+   "e": 171.1,
+   "w": "Dia",
+   "t0": 107.12,
+   "t1": 107.33,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 171.1,
+   "e": 171.42,
+   "w": "ada",
+   "t0": 107.33,
+   "t1": 107.65,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 171.42,
+   "e": 172.04,
+   "w": "tempoh",
+   "t0": 107.65,
+   "t1": 108.27,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 172.04,
+   "e": 172.18,
+   "w": "dan",
+   "t0": 108.27,
+   "t1": 108.41,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 172.18,
+   "e": 172.38,
+   "w": "juga",
+   "t0": 108.41,
+   "t1": 108.61,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 172.38,
+   "e": 172.76,
+   "w": "ada",
+   "t0": 108.61,
+   "t1": 108.99,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 172.76,
+   "e": 173.22,
+   "w": "jalan",
+   "t0": 108.99,
+   "t1": 109.45,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 173.22,
+   "e": 173.36,
+   "w": "juga",
+   "t0": 109.45,
+   "t1": 109.59,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 173.36,
+   "e": 173.74,
+   "w": "untuk",
+   "t0": 109.59,
+   "t1": 109.97,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 173.74,
+   "e": 174.44,
+   "w": "kembali",
+   "t0": 109.97,
+   "t1": 110.67,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 174.44,
+   "e": 174.62,
+   "w": "kepada",
+   "t0": 110.67,
+   "t1": 110.85,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 174.62,
+   "e": 175.06,
+   "w": "conversation",
+   "t0": 110.85,
+   "t1": 111.29,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  },
+  {
+   "s": 175.06,
+   "e": 175.4,
+   "w": "tu.",
+   "t0": 111.29,
+   "t1": 111.54,
+   "seg": "doc_final",
+   "speaker": "DOKTOR"
+  }
+ ],
+ "chunks": [
+  {
+   "t0": 0.7,
+   "t1": 1.58,
+   "speaker": "DOKTOR",
+   "seg": "cold_open",
+   "words": [
+    {
+     "w": "Dia",
+     "t0": 0.7,
+     "t1": 0.74
+    },
+    {
+     "w": "yang",
+     "t0": 0.74,
+     "t1": 0.9
+    },
+    {
+     "w": "penting",
+     "t0": 0.9,
+     "t1": 1.3
+    },
+    {
+     "w": "tu",
+     "t0": 1.3,
+     "t1": 1.4
+    },
+    {
+     "w": "dia",
+     "t0": 1.4,
+     "t1": 1.58
+    }
+   ]
+  },
+  {
+   "t0": 1.58,
+   "t1": 2.54,
+   "speaker": "DOKTOR",
+   "seg": "cold_open",
+   "words": [
+    {
+     "w": "bukan",
+     "t0": 1.58,
+     "t1": 1.8
+    },
+    {
+     "w": "berapa",
+     "t0": 1.8,
+     "t1": 2.04
+    },
+    {
+     "w": "lama",
+     "t0": 2.04,
+     "t1": 2.3
+    },
+    {
+     "w": "lah.",
+     "t0": 2.3,
+     "t1": 2.52
+    }
+   ]
+  },
+  {
+   "t0": 2.54,
+   "t1": 3.53,
+   "speaker": "DOKTOR",
+   "seg": "cold_open",
+   "words": [
+    {
+     "w": "Tapi",
+     "t0": 2.54,
+     "t1": 2.74
+    },
+    {
+     "w": "yang",
+     "t0": 2.74,
+     "t1": 2.84
+    },
+    {
+     "w": "penting",
+     "t0": 2.84,
+     "t1": 3.1
+    },
+    {
+     "w": "apa",
+     "t0": 3.1,
+     "t1": 3.28
+    },
+    {
+     "w": "yang",
+     "t0": 3.37,
+     "t1": 3.53
+    }
+   ]
+  },
+  {
+   "t0": 3.53,
+   "t1": 5.27,
+   "speaker": "DOKTOR",
+   "seg": "cold_open",
+   "words": [
+    {
+     "w": "berlaku",
+     "t0": 3.53,
+     "t1": 4.11
+    },
+    {
+     "w": "selepas",
+     "t0": 4.11,
+     "t1": 4.65
+    },
+    {
+     "w": "space",
+     "t0": 4.65,
+     "t1": 5.27
+    }
+   ]
+  },
+  {
+   "t0": 5.27,
+   "t1": 6.119999999999999,
+   "speaker": "DOKTOR",
+   "seg": "cold_open",
+   "words": [
+    {
+     "w": "tersebut.",
+     "t0": 5.27,
+     "t1": 5.77
+    }
+   ]
+  },
+  {
+   "t0": 7.14,
+   "t1": 8.9,
+   "speaker": "HOS",
+   "seg": "host_q",
+   "words": [
+    {
+     "w": "Perlukah",
+     "t0": 7.14,
+     "t1": 7.88
+    },
+    {
+     "w": "kita",
+     "t0": 7.88,
+     "t1": 8.18
+    },
+    {
+     "w": "ni",
+     "t0": 8.18,
+     "t1": 8.52
+    },
+    {
+     "w": "beri",
+     "t0": 8.52,
+     "t1": 8.9
+    }
+   ]
+  },
+  {
+   "t0": 8.9,
+   "t1": 10.16,
+   "speaker": "HOS",
+   "seg": "host_q",
+   "words": [
+    {
+     "w": "ruang",
+     "t0": 8.9,
+     "t1": 9.26
+    },
+    {
+     "w": "kepada",
+     "t0": 9.26,
+     "t1": 9.44
+    },
+    {
+     "w": "pasangan",
+     "t0": 9.44,
+     "t1": 10.16
+    }
+   ]
+  },
+  {
+   "t0": 10.16,
+   "t1": 12.45,
+   "speaker": "HOS",
+   "seg": "host_q",
+   "words": [
+    {
+     "w": "kalau",
+     "t0": 10.16,
+     "t1": 10.56
+    },
+    {
+     "w": "berlaku",
+     "t0": 10.56,
+     "t1": 11.48
+    },
+    {
+     "w": "konflik?",
+     "t0": 11.48,
+     "t1": 12.1
+    }
+   ]
+  },
+  {
+   "t0": 12.61,
+   "t1": 14.65,
+   "speaker": "HOS",
+   "seg": "host_mamak",
+   "words": [
+    {
+     "w": "Setiap",
+     "t0": 12.61,
+     "t1": 13.17
+    },
+    {
+     "w": "kali",
+     "t0": 13.17,
+     "t1": 13.35
+    },
+    {
+     "w": "nak",
+     "t0": 13.35,
+     "t1": 13.65
+    },
+    {
+     "w": "bercakap",
+     "t0": 13.65,
+     "t1": 14.65
+    }
+   ]
+  },
+  {
+   "t0": 14.65,
+   "t1": 15.469999999999999,
+   "speaker": "HOS",
+   "seg": "host_mamak",
+   "words": [
+    {
+     "w": "je",
+     "t0": 14.65,
+     "t1": 14.77
+    },
+    {
+     "w": "bangun",
+     "t0": 14.77,
+     "t1": 15.12
+    }
+   ]
+  },
+  {
+   "t0": 15.57,
+   "t1": 17.32,
+   "speaker": "HOS",
+   "seg": "host_mamak",
+   "words": [
+    {
+     "w": "keluar",
+     "t0": 15.57,
+     "t1": 15.87
+    },
+    {
+     "w": "pergi",
+     "t0": 16.06,
+     "t1": 16.7
+    },
+    {
+     "w": "kedai",
+     "t0": 16.7,
+     "t1": 16.94
+    },
+    {
+     "w": "mamak",
+     "t0": 16.94,
+     "t1": 17.32
+    }
+   ]
+  },
+  {
+   "t0": 17.32,
+   "t1": 19.18,
+   "speaker": "HOS",
+   "seg": "host_mamak",
+   "words": [
+    {
+     "w": "contoh",
+     "t0": 17.32,
+     "t1": 17.82
+    },
+    {
+     "w": "ataupun",
+     "t0": 17.82,
+     "t1": 18.52
+    },
+    {
+     "w": "bangun",
+     "t0": 18.52,
+     "t1": 19.18
+    }
+   ]
+  },
+  {
+   "t0": 19.18,
+   "t1": 20.62,
+   "speaker": "HOS",
+   "seg": "host_mamak",
+   "words": [
+    {
+     "w": "keluar",
+     "t0": 19.18,
+     "t1": 19.64
+    },
+    {
+     "w": "pergi",
+     "t0": 19.64,
+     "t1": 20.16
+    },
+    {
+     "w": "jogging",
+     "t0": 20.16,
+     "t1": 20.62
+    }
+   ]
+  },
+  {
+   "t0": 20.62,
+   "t1": 21.610000000000003,
+   "speaker": "HOS",
+   "seg": "host_mamak",
+   "words": [
+    {
+     "w": "contoh.",
+     "t0": 20.62,
+     "t1": 21.26
+    }
+   ]
+  },
+  {
+   "t0": 21.76,
+   "t1": 22.24,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoid",
+   "words": [
+    {
+     "w": "Sebenarnya,",
+     "t0": 21.76,
+     "t1": 22.17
+    }
+   ]
+  },
+  {
+   "t0": 22.24,
+   "t1": 23.68,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoid",
+   "words": [
+    {
+     "w": "bila",
+     "t0": 22.24,
+     "t1": 22.42
+    },
+    {
+     "w": "orang",
+     "t0": 22.42,
+     "t1": 22.68
+    },
+    {
+     "w": "bergaduh",
+     "t0": 22.68,
+     "t1": 23.22
+    },
+    {
+     "w": "ni",
+     "t0": 23.22,
+     "t1": 23.4
+    },
+    {
+     "w": "dia",
+     "t0": 23.4,
+     "t1": 23.68
+    }
+   ]
+  },
+  {
+   "t0": 23.68,
+   "t1": 25.18,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoid",
+   "words": [
+    {
+     "w": "memang",
+     "t0": 23.68,
+     "t1": 23.96
+    },
+    {
+     "w": "jenis",
+     "t0": 23.96,
+     "t1": 24.52
+    },
+    {
+     "w": "yang",
+     "t0": 24.52,
+     "t1": 24.74
+    },
+    {
+     "w": "suka",
+     "t0": 24.74,
+     "t1": 25.18
+    }
+   ]
+  },
+  {
+   "t0": 25.18,
+   "t1": 26.24,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoid",
+   "words": [
+    {
+     "w": "avoid",
+     "t0": 25.18,
+     "t1": 25.66
+    },
+    {
+     "w": "konflik.",
+     "t0": 25.66,
+     "t1": 26.14
+    }
+   ]
+  },
+  {
+   "t0": 26.24,
+   "t1": 27.86,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoid",
+   "words": [
+    {
+     "w": "Dia",
+     "t0": 26.24,
+     "t1": 26.42
+    },
+    {
+     "w": "akan",
+     "t0": 26.42,
+     "t1": 26.94
+    },
+    {
+     "w": "rasa",
+     "t0": 26.94,
+     "t1": 27.34
+    },
+    {
+     "w": "dia",
+     "t0": 27.34,
+     "t1": 27.7
+    },
+    {
+     "w": "tak",
+     "t0": 27.7,
+     "t1": 27.86
+    }
+   ]
+  },
+  {
+   "t0": 27.86,
+   "t1": 28.4,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoid",
+   "words": [
+    {
+     "w": "selesa",
+     "t0": 27.86,
+     "t1": 28.18
+    },
+    {
+     "w": "dengan",
+     "t0": 28.18,
+     "t1": 28.4
+    }
+   ]
+  },
+  {
+   "t0": 28.4,
+   "t1": 29.04,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoid",
+   "words": [
+    {
+     "w": "confrontation.",
+     "t0": 28.4,
+     "t1": 28.88
+    }
+   ]
+  },
+  {
+   "t0": 29.04,
+   "t1": 30.58,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoid",
+   "words": [
+    {
+     "w": "Jadi",
+     "t0": 29.04,
+     "t1": 29.34
+    },
+    {
+     "w": "dia",
+     "t0": 29.34,
+     "t1": 29.64
+    },
+    {
+     "w": "punya",
+     "t0": 29.64,
+     "t1": 29.84
+    },
+    {
+     "w": "instinct",
+     "t0": 29.84,
+     "t1": 30.46
+    },
+    {
+     "w": "tu",
+     "t0": 30.46,
+     "t1": 30.58
+    }
+   ]
+  },
+  {
+   "t0": 30.58,
+   "t1": 32.85,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoid",
+   "words": [
+    {
+     "w": "adalah",
+     "t0": 30.58,
+     "t1": 30.84
+    },
+    {
+     "w": "better",
+     "t0": 30.84,
+     "t1": 31.58
+    },
+    {
+     "w": "aku",
+     "t0": 31.58,
+     "t1": 31.82
+    },
+    {
+     "w": "jauhkan",
+     "t0": 31.82,
+     "t1": 32.32
+    },
+    {
+     "w": "je.",
+     "t0": 32.32,
+     "t1": 32.5
+    }
+   ]
+  },
+  {
+   "t0": 33.17,
+   "t1": 34.73,
+   "speaker": "DOKTOR",
+   "seg": "doc_shutdown",
+   "words": [
+    {
+     "w": "Tapi",
+     "t0": 33.17,
+     "t1": 33.49
+    },
+    {
+     "w": "ada",
+     "t0": 33.49,
+     "t1": 33.69
+    },
+    {
+     "w": "juga",
+     "t0": 33.69,
+     "t1": 33.91
+    },
+    {
+     "w": "orang",
+     "t0": 33.91,
+     "t1": 34.25
+    },
+    {
+     "w": "yang",
+     "t0": 34.25,
+     "t1": 34.73
+    }
+   ]
+  },
+  {
+   "t0": 34.73,
+   "t1": 35.95,
+   "speaker": "DOKTOR",
+   "seg": "doc_shutdown",
+   "words": [
+    {
+     "w": "dia",
+     "t0": 34.73,
+     "t1": 35.21
+    },
+    {
+     "w": "macam",
+     "t0": 35.21,
+     "t1": 35.51
+    },
+    {
+     "w": "shutdown",
+     "t0": 35.51,
+     "t1": 35.95
+    }
+   ]
+  },
+  {
+   "t0": 35.95,
+   "t1": 37.97,
+   "speaker": "DOKTOR",
+   "seg": "doc_shutdown",
+   "words": [
+    {
+     "w": "disebabkan",
+     "t0": 35.95,
+     "t1": 36.85
+    },
+    {
+     "w": "oleh",
+     "t0": 36.85,
+     "t1": 37.11
+    },
+    {
+     "w": "dia",
+     "t0": 37.11,
+     "t1": 37.63
+    },
+    {
+     "w": "punya",
+     "t0": 37.63,
+     "t1": 37.97
+    }
+   ]
+  },
+  {
+   "t0": 37.97,
+   "t1": 39.59,
+   "speaker": "DOKTOR",
+   "seg": "doc_shutdown",
+   "words": [
+    {
+     "w": "emotionally",
+     "t0": 37.97,
+     "t1": 38.65
+    },
+    {
+     "w": "overwhelmed",
+     "t0": 38.65,
+     "t1": 39.09
+    },
+    {
+     "w": "tu.",
+     "t0": 39.09,
+     "t1": 39.51
+    }
+   ]
+  },
+  {
+   "t0": 39.59,
+   "t1": 41.11,
+   "speaker": "DOKTOR",
+   "seg": "doc_shutdown",
+   "words": [
+    {
+     "w": "Maksudnya",
+     "t0": 39.59,
+     "t1": 40.15
+    },
+    {
+     "w": "dia",
+     "t0": 40.15,
+     "t1": 40.67
+    },
+    {
+     "w": "perlukan",
+     "t0": 40.67,
+     "t1": 41.11
+    }
+   ]
+  },
+  {
+   "t0": 41.11,
+   "t1": 43.84,
+   "speaker": "DOKTOR",
+   "seg": "doc_shutdown",
+   "words": [
+    {
+     "w": "masa",
+     "t0": 41.11,
+     "t1": 41.47
+    },
+    {
+     "w": "untuk",
+     "t0": 41.47,
+     "t1": 42.09
+    },
+    {
+     "w": "regulate",
+     "t0": 42.09,
+     "t1": 42.49
+    },
+    {
+     "w": "emosi",
+     "t0": 42.81,
+     "t1": 43.23
+    },
+    {
+     "w": "dia.",
+     "t0": 43.23,
+     "t1": 43.49
+    }
+   ]
+  },
+  {
+   "t0": 44.04,
+   "t1": 45.62,
+   "speaker": "DOKTOR",
+   "seg": "doc_child",
+   "words": [
+    {
+     "w": "Kadang-kadang",
+     "t0": 44.04,
+     "t1": 44.72
+    },
+    {
+     "w": "benda",
+     "t0": 44.72,
+     "t1": 45.04
+    },
+    {
+     "w": "ni",
+     "t0": 45.04,
+     "t1": 45.3
+    },
+    {
+     "w": "dia",
+     "t0": 45.3,
+     "t1": 45.62
+    }
+   ]
+  },
+  {
+   "t0": 45.62,
+   "t1": 47.12,
+   "speaker": "DOKTOR",
+   "seg": "doc_child",
+   "words": [
+    {
+     "w": "berkait",
+     "t0": 45.62,
+     "t1": 46.08
+    },
+    {
+     "w": "dengan",
+     "t0": 46.08,
+     "t1": 46.24
+    },
+    {
+     "w": "cara",
+     "t0": 46.24,
+     "t1": 46.68
+    },
+    {
+     "w": "orang",
+     "t0": 46.68,
+     "t1": 47.12
+    }
+   ]
+  },
+  {
+   "t0": 47.12,
+   "t1": 47.74,
+   "speaker": "DOKTOR",
+   "seg": "doc_child",
+   "words": [
+    {
+     "w": "tu",
+     "t0": 47.12,
+     "t1": 47.22
+    },
+    {
+     "w": "dibesarkan.",
+     "t0": 47.22,
+     "t1": 47.62
+    }
+   ]
+  },
+  {
+   "t0": 47.74,
+   "t1": 49.35,
+   "speaker": "DOKTOR",
+   "seg": "doc_child",
+   "words": [
+    {
+     "w": "Contohnya",
+     "t0": 47.74,
+     "t1": 48.32
+    },
+    {
+     "w": "masa",
+     "t0": 48.32,
+     "t1": 48.5
+    },
+    {
+     "w": "kecil.",
+     "t0": 48.5,
+     "t1": 49.0
+    }
+   ]
+  },
+  {
+   "t0": 49.35,
+   "t1": 50.2,
+   "speaker": "DOKTOR",
+   "seg": "doc_child",
+   "words": [
+    {
+     "w": "Bila",
+     "t0": 49.35,
+     "t1": 49.5
+    },
+    {
+     "w": "dia",
+     "t0": 49.5,
+     "t1": 49.62
+    },
+    {
+     "w": "cuba",
+     "t0": 49.62,
+     "t1": 49.9
+    },
+    {
+     "w": "nak",
+     "t0": 49.9,
+     "t1": 49.98
+    },
+    {
+     "w": "bagi",
+     "t0": 49.98,
+     "t1": 50.2
+    }
+   ]
+  },
+  {
+   "t0": 50.2,
+   "t1": 50.59,
+   "speaker": "DOKTOR",
+   "seg": "doc_child",
+   "words": [
+    {
+     "w": "pendapat,",
+     "t0": 50.2,
+     "t1": 50.5
+    }
+   ]
+  },
+  {
+   "t0": 50.59,
+   "t1": 51.75,
+   "speaker": "DOKTOR",
+   "seg": "doc_child",
+   "words": [
+    {
+     "w": "ayah",
+     "t0": 50.59,
+     "t1": 51.13
+    },
+    {
+     "w": "dia",
+     "t0": 51.13,
+     "t1": 51.23
+    },
+    {
+     "w": "marah",
+     "t0": 51.23,
+     "t1": 51.55
+    },
+    {
+     "w": "je.",
+     "t0": 51.55,
+     "t1": 51.67
+    }
+   ]
+  },
+  {
+   "t0": 51.75,
+   "t1": 53.0,
+   "speaker": "DOKTOR",
+   "seg": "doc_child",
+   "words": [
+    {
+     "w": "Jadi",
+     "t0": 51.75,
+     "t1": 52.01
+    },
+    {
+     "w": "dia",
+     "t0": 52.01,
+     "t1": 52.27
+    },
+    {
+     "w": "belajar.",
+     "t0": 52.27,
+     "t1": 52.65
+    }
+   ]
+  },
+  {
+   "t0": 53.09,
+   "t1": 54.37,
+   "speaker": "DOKTOR",
+   "seg": "doc_child",
+   "words": [
+    {
+     "w": "Lepas",
+     "t0": 53.09,
+     "t1": 53.43
+    },
+    {
+     "w": "tu",
+     "t0": 53.43,
+     "t1": 53.55
+    },
+    {
+     "w": "kalau",
+     "t0": 53.55,
+     "t1": 53.73
+    },
+    {
+     "w": "ada",
+     "t0": 53.73,
+     "t1": 53.93
+    },
+    {
+     "w": "konflik",
+     "t0": 53.93,
+     "t1": 54.37
+    }
+   ]
+  },
+  {
+   "t0": 54.37,
+   "t1": 55.55,
+   "speaker": "DOKTOR",
+   "seg": "doc_child",
+   "words": [
+    {
+     "w": "je",
+     "t0": 54.37,
+     "t1": 54.51
+    },
+    {
+     "w": "lebih",
+     "t0": 54.51,
+     "t1": 54.73
+    },
+    {
+     "w": "baik",
+     "t0": 54.73,
+     "t1": 54.93
+    },
+    {
+     "w": "aku",
+     "t0": 54.93,
+     "t1": 55.01
+    },
+    {
+     "w": "diam.",
+     "t0": 55.01,
+     "t1": 55.29
+    }
+   ]
+  },
+  {
+   "t0": 55.55,
+   "t1": 57.14,
+   "speaker": "DOKTOR",
+   "seg": "doc_child",
+   "words": [
+    {
+     "w": "Itu",
+     "t0": 55.55,
+     "t1": 55.95
+    },
+    {
+     "w": "lagi",
+     "t0": 55.95,
+     "t1": 56.13
+    },
+    {
+     "w": "selamat",
+     "t0": 56.13,
+     "t1": 56.41
+    },
+    {
+     "w": "untuk",
+     "t0": 56.41,
+     "t1": 56.63
+    },
+    {
+     "w": "aku.",
+     "t0": 56.63,
+     "t1": 56.79
+    }
+   ]
+  },
+  {
+   "t0": 57.42,
+   "t1": 58.36,
+   "speaker": "DOKTOR",
+   "seg": "doc_two",
+   "words": [
+    {
+     "w": "Jadi",
+     "t0": 57.42,
+     "t1": 57.62
+    },
+    {
+     "w": "kita",
+     "t0": 57.62,
+     "t1": 57.8
+    },
+    {
+     "w": "kena",
+     "t0": 57.8,
+     "t1": 57.96
+    },
+    {
+     "w": "beza",
+     "t0": 57.96,
+     "t1": 58.22
+    },
+    {
+     "w": "kat",
+     "t0": 58.22,
+     "t1": 58.36
+    }
+   ]
+  },
+  {
+   "t0": 58.36,
+   "t1": 59.12,
+   "speaker": "DOKTOR",
+   "seg": "doc_two",
+   "words": [
+    {
+     "w": "sini",
+     "t0": 58.36,
+     "t1": 58.54
+    },
+    {
+     "w": "dua",
+     "t0": 58.54,
+     "t1": 58.68
+    },
+    {
+     "w": "benda.",
+     "t0": 58.68,
+     "t1": 58.98
+    }
+   ]
+  },
+  {
+   "t0": 59.12,
+   "t1": 61.7,
+   "speaker": "DOKTOR",
+   "seg": "doc_two",
+   "words": [
+    {
+     "w": "Dia",
+     "t0": 59.12,
+     "t1": 59.64
+    },
+    {
+     "w": "perlukan",
+     "t0": 59.64,
+     "t1": 60.68
+    },
+    {
+     "w": "masa",
+     "t0": 60.68,
+     "t1": 61.06
+    },
+    {
+     "w": "untuk",
+     "t0": 61.06,
+     "t1": 61.7
+    }
+   ]
+  },
+  {
+   "t0": 61.7,
+   "t1": 63.71,
+   "speaker": "DOKTOR",
+   "seg": "doc_two",
+   "words": [
+    {
+     "w": "regulate",
+     "t0": 61.7,
+     "t1": 62.22
+    },
+    {
+     "w": "emosi",
+     "t0": 62.22,
+     "t1": 62.72
+    },
+    {
+     "w": "dia",
+     "t0": 62.72,
+     "t1": 63.04
+    },
+    {
+     "w": "ataupun",
+     "t0": 63.04,
+     "t1": 63.36
+    }
+   ]
+  },
+  {
+   "t0": 63.75,
+   "t1": 65.07,
+   "speaker": "DOKTOR",
+   "seg": "doc_two",
+   "words": [
+    {
+     "w": "dia",
+     "t0": 63.75,
+     "t1": 64.11
+    },
+    {
+     "w": "memang",
+     "t0": 64.11,
+     "t1": 64.49
+    },
+    {
+     "w": "jenis",
+     "t0": 64.49,
+     "t1": 64.91
+    },
+    {
+     "w": "nak",
+     "t0": 64.91,
+     "t1": 65.07
+    }
+   ]
+  },
+  {
+   "t0": 65.07,
+   "t1": 66.89,
+   "speaker": "DOKTOR",
+   "seg": "doc_two",
+   "words": [
+    {
+     "w": "mengelakkan",
+     "t0": 65.07,
+     "t1": 65.75
+    },
+    {
+     "w": "semua",
+     "t0": 65.75,
+     "t1": 66.03
+    },
+    {
+     "w": "masalah.",
+     "t0": 66.22,
+     "t1": 66.54
+    }
+   ]
+  },
+  {
+   "t0": 67.0,
+   "t1": 67.1,
+   "speaker": "HOS",
+   "seg": "host_time",
+   "words": [
+    {
+     "w": "Faham,",
+     "t0": 67.0,
+     "t1": 67.1
+    }
+   ]
+  },
+  {
+   "t0": 67.1,
+   "t1": 68.76,
+   "speaker": "HOS",
+   "seg": "host_time",
+   "words": [
+    {
+     "w": "dia",
+     "t0": 67.1,
+     "t1": 67.36
+    },
+    {
+     "w": "nak",
+     "t0": 67.36,
+     "t1": 67.62
+    },
+    {
+     "w": "space.",
+     "t0": 67.62,
+     "t1": 68.48
+    }
+   ]
+  },
+  {
+   "t0": 68.76,
+   "t1": 69.93,
+   "speaker": "HOS",
+   "seg": "host_time",
+   "words": [
+    {
+     "w": "Dia",
+     "t0": 68.76,
+     "t1": 68.92
+    },
+    {
+     "w": "nak",
+     "t0": 68.92,
+     "t1": 69.18
+    },
+    {
+     "w": "ruang.",
+     "t0": 69.18,
+     "t1": 69.74
+    }
+   ]
+  },
+  {
+   "t0": 69.93,
+   "t1": 71.15,
+   "speaker": "HOS",
+   "seg": "host_time",
+   "words": [
+    {
+     "w": "Contoh",
+     "t0": 69.93,
+     "t1": 70.33
+    },
+    {
+     "w": "berapa",
+     "t0": 70.33,
+     "t1": 70.77
+    },
+    {
+     "w": "jam,",
+     "t0": 70.77,
+     "t1": 71.05
+    }
+   ]
+  },
+  {
+   "t0": 71.15,
+   "t1": 72.08999999999999,
+   "speaker": "HOS",
+   "seg": "host_time",
+   "words": [
+    {
+     "w": "berapa",
+     "t0": 71.15,
+     "t1": 71.41
+    },
+    {
+     "w": "hari.",
+     "t0": 71.41,
+     "t1": 71.74
+    }
+   ]
+  },
+  {
+   "t0": 72.16,
+   "t1": 73.44,
+   "speaker": "DOKTOR",
+   "seg": "doc_noNumber",
+   "words": [
+    {
+     "w": "dia",
+     "t0": 72.16,
+     "t1": 72.3
+    },
+    {
+     "w": "tu",
+     "t0": 72.3,
+     "t1": 72.46
+    },
+    {
+     "w": "tak",
+     "t0": 72.46,
+     "t1": 72.6
+    },
+    {
+     "w": "ada",
+     "t0": 72.6,
+     "t1": 72.72
+    },
+    {
+     "w": "angka",
+     "t0": 72.72,
+     "t1": 73.44
+    }
+   ]
+  },
+  {
+   "t0": 73.44,
+   "t1": 74.22,
+   "speaker": "DOKTOR",
+   "seg": "doc_noNumber",
+   "words": [
+    {
+     "w": "yang",
+     "t0": 73.44,
+     "t1": 73.6
+    },
+    {
+     "w": "spesifik",
+     "t0": 73.6,
+     "t1": 74.08
+    },
+    {
+     "w": "lah",
+     "t0": 74.08,
+     "t1": 74.22
+    }
+   ]
+  },
+  {
+   "t0": 74.22,
+   "t1": 74.65,
+   "speaker": "DOKTOR",
+   "seg": "doc_noNumber",
+   "words": [
+    {
+     "w": "sebenarnya.",
+     "t0": 74.22,
+     "t1": 74.52
+    }
+   ]
+  },
+  {
+   "t0": 74.65,
+   "t1": 75.57,
+   "speaker": "DOKTOR",
+   "seg": "doc_noNumber",
+   "words": [
+    {
+     "w": "Ada",
+     "t0": 74.65,
+     "t1": 74.85
+    },
+    {
+     "w": "orang",
+     "t0": 74.85,
+     "t1": 75.07
+    },
+    {
+     "w": "perlukan",
+     "t0": 75.07,
+     "t1": 75.39
+    },
+    {
+     "w": "dua",
+     "t0": 75.39,
+     "t1": 75.57
+    }
+   ]
+  },
+  {
+   "t0": 75.57,
+   "t1": 76.28999999999999,
+   "speaker": "DOKTOR",
+   "seg": "doc_noNumber",
+   "words": [
+    {
+     "w": "tiga",
+     "t0": 75.57,
+     "t1": 75.81
+    },
+    {
+     "w": "jam.",
+     "t0": 75.81,
+     "t1": 75.94
+    }
+   ]
+  },
+  {
+   "t0": 76.89,
+   "t1": 77.77,
+   "speaker": "DOKTOR",
+   "seg": "doc_key",
+   "words": [
+    {
+     "w": "Dia",
+     "t0": 76.89,
+     "t1": 76.93
+    },
+    {
+     "w": "yang",
+     "t0": 76.93,
+     "t1": 77.09
+    },
+    {
+     "w": "penting",
+     "t0": 77.09,
+     "t1": 77.49
+    },
+    {
+     "w": "tu",
+     "t0": 77.49,
+     "t1": 77.59
+    },
+    {
+     "w": "dia",
+     "t0": 77.59,
+     "t1": 77.77
+    }
+   ]
+  },
+  {
+   "t0": 77.77,
+   "t1": 78.73,
+   "speaker": "DOKTOR",
+   "seg": "doc_key",
+   "words": [
+    {
+     "w": "bukan",
+     "t0": 77.77,
+     "t1": 77.99
+    },
+    {
+     "w": "berapa",
+     "t0": 77.99,
+     "t1": 78.23
+    },
+    {
+     "w": "lama",
+     "t0": 78.23,
+     "t1": 78.49
+    },
+    {
+     "w": "lah.",
+     "t0": 78.49,
+     "t1": 78.71
+    }
+   ]
+  },
+  {
+   "t0": 78.73,
+   "t1": 79.72,
+   "speaker": "DOKTOR",
+   "seg": "doc_key",
+   "words": [
+    {
+     "w": "Tapi",
+     "t0": 78.73,
+     "t1": 78.93
+    },
+    {
+     "w": "yang",
+     "t0": 78.93,
+     "t1": 79.03
+    },
+    {
+     "w": "penting",
+     "t0": 79.03,
+     "t1": 79.29
+    },
+    {
+     "w": "apa",
+     "t0": 79.29,
+     "t1": 79.47
+    },
+    {
+     "w": "yang",
+     "t0": 79.56,
+     "t1": 79.72
+    }
+   ]
+  },
+  {
+   "t0": 79.72,
+   "t1": 81.46,
+   "speaker": "DOKTOR",
+   "seg": "doc_key",
+   "words": [
+    {
+     "w": "berlaku",
+     "t0": 79.72,
+     "t1": 80.3
+    },
+    {
+     "w": "selepas",
+     "t0": 80.3,
+     "t1": 80.84
+    },
+    {
+     "w": "space",
+     "t0": 80.84,
+     "t1": 81.46
+    }
+   ]
+  },
+  {
+   "t0": 81.46,
+   "t1": 82.30999999999999,
+   "speaker": "DOKTOR",
+   "seg": "doc_key",
+   "words": [
+    {
+     "w": "tersebut.",
+     "t0": 81.46,
+     "t1": 81.96
+    }
+   ]
+  },
+  {
+   "t0": 82.87,
+   "t1": 84.45,
+   "speaker": "DOKTOR",
+   "seg": "doc_healthy",
+   "words": [
+    {
+     "w": "Contohnya",
+     "t0": 82.87,
+     "t1": 83.39
+    },
+    {
+     "w": "kalau",
+     "t0": 83.39,
+     "t1": 83.91
+    },
+    {
+     "w": "kita",
+     "t0": 83.91,
+     "t1": 84.45
+    }
+   ]
+  },
+  {
+   "t0": 84.45,
+   "t1": 85.88,
+   "speaker": "DOKTOR",
+   "seg": "doc_healthy",
+   "words": [
+    {
+     "w": "tengah",
+     "t0": 84.45,
+     "t1": 84.73
+    },
+    {
+     "w": "marah",
+     "t0": 84.73,
+     "t1": 85.03
+    },
+    {
+     "w": "sekarang",
+     "t0": 85.03,
+     "t1": 85.27
+    },
+    {
+     "w": "kan.",
+     "t0": 85.27,
+     "t1": 85.53
+    }
+   ]
+  },
+  {
+   "t0": 87.41,
+   "t1": 88.57,
+   "speaker": "DOKTOR",
+   "seg": "doc_healthy",
+   "words": [
+    {
+     "w": "Lepas",
+     "t0": 87.41,
+     "t1": 87.81
+    },
+    {
+     "w": "tu",
+     "t0": 87.81,
+     "t1": 87.99
+    },
+    {
+     "w": "malam",
+     "t0": 87.99,
+     "t1": 88.33
+    },
+    {
+     "w": "kita",
+     "t0": 88.33,
+     "t1": 88.57
+    }
+   ]
+  },
+  {
+   "t0": 88.57,
+   "t1": 89.74,
+   "speaker": "DOKTOR",
+   "seg": "doc_healthy",
+   "words": [
+    {
+     "w": "sambung",
+     "t0": 88.57,
+     "t1": 88.95
+    },
+    {
+     "w": "bincang",
+     "t0": 88.95,
+     "t1": 89.25
+    },
+    {
+     "w": "balik.",
+     "t0": 89.25,
+     "t1": 89.59
+    }
+   ]
+  },
+  {
+   "t0": 89.74,
+   "t1": 91.36,
+   "speaker": "DOKTOR",
+   "seg": "doc_healthy",
+   "words": [
+    {
+     "w": "Ini",
+     "t0": 89.74,
+     "t1": 89.98
+    },
+    {
+     "w": "adalah",
+     "t0": 89.98,
+     "t1": 90.24
+    },
+    {
+     "w": "healthy",
+     "t0": 90.24,
+     "t1": 90.68
+    },
+    {
+     "w": "space.",
+     "t0": 90.68,
+     "t1": 91.01
+    }
+   ]
+  },
+  {
+   "t0": 91.41,
+   "t1": 92.88,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoidance",
+   "words": [
+    {
+     "w": "Itu",
+     "t0": 91.41,
+     "t1": 91.68
+    },
+    {
+     "w": "berbeza",
+     "t0": 91.68,
+     "t1": 92.18
+    },
+    {
+     "w": "dengan",
+     "t0": 92.18,
+     "t1": 92.42
+    },
+    {
+     "w": "orang",
+     "t0": 92.42,
+     "t1": 92.88
+    }
+   ]
+  },
+  {
+   "t0": 92.88,
+   "t1": 94.06,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoidance",
+   "words": [
+    {
+     "w": "yang",
+     "t0": 92.88,
+     "t1": 93.1
+    },
+    {
+     "w": "tiba-tiba",
+     "t0": 93.1,
+     "t1": 93.56
+    },
+    {
+     "w": "hilang.",
+     "t0": 93.56,
+     "t1": 94.06
+    }
+   ]
+  },
+  {
+   "t0": 94.06,
+   "t1": 94.92,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoidance",
+   "words": [
+    {
+     "w": "Tak",
+     "t0": 94.06,
+     "t1": 94.2
+    },
+    {
+     "w": "jawab",
+     "t0": 94.2,
+     "t1": 94.48
+    },
+    {
+     "w": "mesej.",
+     "t0": 94.48,
+     "t1": 94.92
+    }
+   ]
+  },
+  {
+   "t0": 94.92,
+   "t1": 96.44,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoidance",
+   "words": [
+    {
+     "w": "Terus",
+     "t0": 94.92,
+     "t1": 95.26
+    },
+    {
+     "w": "block",
+     "t0": 95.26,
+     "t1": 95.52
+    },
+    {
+     "w": "pasangan",
+     "t0": 95.52,
+     "t1": 95.98
+    },
+    {
+     "w": "dia.",
+     "t0": 95.98,
+     "t1": 96.2
+    }
+   ]
+  },
+  {
+   "t0": 96.44,
+   "t1": 97.2,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoidance",
+   "words": [
+    {
+     "w": "Lepas",
+     "t0": 96.44,
+     "t1": 96.6
+    },
+    {
+     "w": "tu",
+     "t0": 96.76,
+     "t1": 96.84
+    },
+    {
+     "w": "tiga",
+     "t0": 96.84,
+     "t1": 97.0
+    },
+    {
+     "w": "hari",
+     "t0": 97.0,
+     "t1": 97.2
+    }
+   ]
+  },
+  {
+   "t0": 97.2,
+   "t1": 98.2,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoidance",
+   "words": [
+    {
+     "w": "kemudian",
+     "t0": 97.2,
+     "t1": 97.54
+    },
+    {
+     "w": "tiba-tiba",
+     "t0": 97.54,
+     "t1": 97.8
+    },
+    {
+     "w": "muncul.",
+     "t0": 97.8,
+     "t1": 98.2
+    }
+   ]
+  },
+  {
+   "t0": 98.2,
+   "t1": 98.9,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoidance",
+   "words": [
+    {
+     "w": "macam",
+     "t0": 98.2,
+     "t1": 98.36
+    },
+    {
+     "w": "tak",
+     "t0": 98.36,
+     "t1": 98.44
+    },
+    {
+     "w": "ada",
+     "t0": 98.44,
+     "t1": 98.56
+    },
+    {
+     "w": "benda",
+     "t0": 98.56,
+     "t1": 98.72
+    },
+    {
+     "w": "yang",
+     "t0": 98.72,
+     "t1": 98.9
+    }
+   ]
+  },
+  {
+   "t0": 98.9,
+   "t1": 99.28,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoidance",
+   "words": [
+    {
+     "w": "berlaku.",
+     "t0": 98.9,
+     "t1": 99.23
+    }
+   ]
+  },
+  {
+   "t0": 99.28,
+   "t1": 100.84,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoidance",
+   "words": [
+    {
+     "w": "Yang",
+     "t0": 99.28,
+     "t1": 99.68
+    },
+    {
+     "w": "tu",
+     "t0": 99.68,
+     "t1": 99.8
+    },
+    {
+     "w": "memang",
+     "t0": 99.8,
+     "t1": 100.0
+    },
+    {
+     "w": "satu",
+     "t0": 100.0,
+     "t1": 100.34
+    },
+    {
+     "w": "bentuk",
+     "t0": 100.34,
+     "t1": 100.84
+    }
+   ]
+  },
+  {
+   "t0": 100.84,
+   "t1": 102.55,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoidance",
+   "words": [
+    {
+     "w": "avoidance",
+     "t0": 100.84,
+     "t1": 101.42
+    },
+    {
+     "w": "ataupun",
+     "t0": 101.54,
+     "t1": 102.2
+    }
+   ]
+  },
+  {
+   "t0": 102.71,
+   "t1": 103.3,
+   "speaker": "DOKTOR",
+   "seg": "doc_avoidance",
+   "words": [
+    {
+     "w": "stonewall.",
+     "t0": 102.71,
+     "t1": 102.95
+    }
+   ]
+  },
+  {
+   "t0": 103.94,
+   "t1": 105.24,
+   "speaker": "DOKTOR",
+   "seg": "doc_final",
+   "words": [
+    {
+     "w": "Jadi",
+     "t0": 103.94,
+     "t1": 104.32
+    },
+    {
+     "w": "konsep",
+     "t0": 104.32,
+     "t1": 104.76
+    },
+    {
+     "w": "dia",
+     "t0": 104.76,
+     "t1": 104.9
+    },
+    {
+     "w": "sebenarnya",
+     "t0": 104.9,
+     "t1": 105.24
+    }
+   ]
+  },
+  {
+   "t0": 105.24,
+   "t1": 107.12,
+   "speaker": "DOKTOR",
+   "seg": "doc_final",
+   "words": [
+    {
+     "w": "macam",
+     "t0": 105.24,
+     "t1": 105.56
+    },
+    {
+     "w": "space",
+     "t0": 105.56,
+     "t1": 105.96
+    },
+    {
+     "w": "yang",
+     "t0": 106.1,
+     "t1": 106.24
+    },
+    {
+     "w": "sihat",
+     "t0": 106.24,
+     "t1": 106.58
+    },
+    {
+     "w": "ni.",
+     "t0": 106.58,
+     "t1": 106.8
+    }
+   ]
+  },
+  {
+   "t0": 107.12,
+   "t1": 108.61,
+   "speaker": "DOKTOR",
+   "seg": "doc_final",
+   "words": [
+    {
+     "w": "Dia",
+     "t0": 107.12,
+     "t1": 107.33
+    },
+    {
+     "w": "ada",
+     "t0": 107.33,
+     "t1": 107.65
+    },
+    {
+     "w": "tempoh",
+     "t0": 107.65,
+     "t1": 108.27
+    },
+    {
+     "w": "dan",
+     "t0": 108.27,
+     "t1": 108.41
+    },
+    {
+     "w": "juga",
+     "t0": 108.41,
+     "t1": 108.61
+    }
+   ]
+  },
+  {
+   "t0": 108.61,
+   "t1": 109.97,
+   "speaker": "DOKTOR",
+   "seg": "doc_final",
+   "words": [
+    {
+     "w": "ada",
+     "t0": 108.61,
+     "t1": 108.99
+    },
+    {
+     "w": "jalan",
+     "t0": 108.99,
+     "t1": 109.45
+    },
+    {
+     "w": "juga",
+     "t0": 109.45,
+     "t1": 109.59
+    },
+    {
+     "w": "untuk",
+     "t0": 109.59,
+     "t1": 109.97
+    }
+   ]
+  },
+  {
+   "t0": 109.97,
+   "t1": 110.85,
+   "speaker": "DOKTOR",
+   "seg": "doc_final",
+   "words": [
+    {
+     "w": "kembali",
+     "t0": 109.97,
+     "t1": 110.67
+    },
+    {
+     "w": "kepada",
+     "t0": 110.67,
+     "t1": 110.85
+    }
+   ]
+  },
+  {
+   "t0": 110.85,
+   "t1": 112.14,
+   "speaker": "DOKTOR",
+   "seg": "doc_final",
+   "words": [
+    {
+     "w": "conversation",
+     "t0": 110.85,
+     "t1": 111.29
+    },
+    {
+     "w": "tu.",
+     "t0": 111.29,
+     "t1": 111.54
+    }
+   ]
+  }
+ ]
+}

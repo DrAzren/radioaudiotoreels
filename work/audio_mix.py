@@ -7,6 +7,10 @@ import subprocess
 
 import numpy as np
 import soundfile as sf
+
+import warp
+
+M = warp.to_new  # cue times below are written on the v1 timeline; map them to the current edit
 from scipy.signal import butter, sosfilt, fftconvolve
 
 SR = 48000
@@ -18,10 +22,8 @@ rng = np.random.default_rng(3)
 subprocess.run([
     "ffmpeg", "-v", "error", "-y", "-i", "voice_edit_raw.wav", "-af",
     "highpass=f=75,lowpass=f=14500,"
-    "afftdn=nr=8:nf=-50:tn=1,"
     "equalizer=f=250:t=q:w=1.0:g=-2.5,equalizer=f=3200:t=q:w=1.2:g=2.5,equalizer=f=7500:t=q:w=1.5:g=-1.5,"
-    "dynaudnorm=f=300:g=15:p=0.9:m=6:s=8,"
-    "acompressor=threshold=-20dB:ratio=3:attack=6:release=120:makeup=2,"
+    "acompressor=threshold=-22dB:ratio=2.5:attack=12:release=180:knee=6:makeup=2,"
     "alimiter=limit=0.89:level=false",
     "-ar", str(SR), "-ac", "1", "voice_clean.wav"], check=True)
 voice, _ = sf.read("voice_clean.wav")
@@ -92,6 +94,7 @@ music = np.zeros((2, N))
 
 
 def pad_chord(notes, t0, t1, gain=0.06, bright=1200, att=1.2, rel=1.5, detune=0.12):
+    t0, t1 = M(t0), M(t1)
     n = t2i(t1 - t0 + rel)
     t = np.arange(n) / SR
     sig = np.zeros((2, n))
@@ -109,6 +112,7 @@ def pad_chord(notes, t0, t1, gain=0.06, bright=1200, att=1.2, rel=1.5, detune=0.
 
 
 def pluck(m, t0, gain=0.05, dec=1.4, pan=0.0, bright=1.0):
+    t0 = M(t0)
     n = t2i(dec * 2)
     t = np.arange(n) / SR
     f = midi(m)
@@ -125,11 +129,12 @@ def sub_pulse(t0, t1, bpm, gain=0.12, f=48):
         n = t2i(0.5)
         tt = np.arange(n) / SR
         s = np.sin(2 * np.pi * f * tt * (1 + 0.6 * np.exp(-tt * 30))) * np.exp(-tt * 9)
-        place(music, s, t, gain)
+        place(music, s, M(t), gain)
         t += step
 
 
 def drone(m, t0, t1, gain=0.05, f_lp=500):
+    t0, t1 = M(t0), M(t1)
     n = t2i(t1 - t0)
     t = np.arange(n) / SR
     f = midi(m)
@@ -204,8 +209,8 @@ pad_chord([D - 12, A - 12, D], 99.6, 103.8, 0.04, 400, att=0.2)
 # resolution: F - G - C (major), swell to the end
 pad_chord([F, A, C + 12], 103.9, 106.6, 0.05, 2000, att=1.0)
 pad_chord([G, 71, D + 12], 106.6, 109.3, 0.055, 2400, att=0.8)
-pad_chord([C, E, G, C + 12], 109.3, DUR + 0.5, 0.065, 2800, att=0.6, rel=3.0)
-drone(36, 109.3, DUR, 0.05, 400)          # C2
+pad_chord([C, E, G, C + 12], 109.3, 113.5, 0.065, 2800, att=0.6, rel=3.0)
+drone(36, 109.3, 113.5, 0.05, 400)          # C2
 tt, k = 104.0, 0
 res = [72, 77, 81, 77, 74, 79, 83, 79, 76, 79, 84, 79]
 while tt < 113.5:
@@ -344,7 +349,10 @@ def s_hiss(dur):
     return x * flutter * e
 
 
-P = place
+def P(buf, sig, t, gain=1.0, pan=0.0):
+    place(buf, sig, M(t), gain, pan)
+
+
 P(sfx, s_bass_hit(), 0.02, 0.55)
 P(sfx, s_impact(), 0.02, 0.25)
 P(sfx, s_whoosh(0.45, 400, 4000), 0.42, 0.22, -0.3)
@@ -370,7 +378,7 @@ for k, tt in enumerate(np.arange(33.5, 39.4, 0.8)):
 P(sfx, s_impact(), 35.5, 0.22)
 P(sfx, s_swell(1.0), 38.65, 0.2)
 P(sfx, s_door(), 43.75, 0.35)
-P(sfx, s_hiss(13.0), 43.9, 0.6)
+P(sfx, s_hiss(M(56.9) - M(43.9)), 43.9, 0.6)
 P(sfx, s_pop(1200), 49.9, 0.12)
 P(sfx, s_bass_hit(0.8), 51.15, 0.18)
 P(sfx, s_pop(800), 54.95, 0.12)
@@ -380,8 +388,8 @@ P(sfx, s_impact(), 57.5, 0.14)
 P(sfx, s_pop(1000), 59.2, 0.1)
 P(sfx, s_pop(800), 63.0, 0.1)
 P(sfx, s_whoosh(0.4, 400, 4000), 66.8, 0.14, 0.4)
-for k, tt in enumerate(np.arange(67.1, 74.0, 0.5)):
-    P(sfx, s_tick(3800 if k % 2 else 2900), tt, 0.16)
+for k, tt in enumerate(np.arange(68.9, 74.0, 0.5)):  # starts after the host says "dia nak space"
+    P(sfx, s_tick(3800 if k % 2 else 2900), tt, 0.09)
 for tt in (70.33, 70.77, 71.41):
     P(sfx, s_pop(1200), tt, 0.14)
 for tt in (72.7, 72.92, 73.14):
@@ -411,8 +419,6 @@ P(sfx, s_whoosh(0.6, 2000, 300), 104.9, 0.1)
 P(sfx, s_shimmer(), 105.55, 0.12)
 P(sfx, s_impact(), 109.95, 0.2)
 P(sfx, s_shimmer(), 109.95, 0.2)
-for tt in (111.8, 112.3, 112.8):
-    P(sfx, s_pop(900), tt, 0.08)
 sfx = reverb(sfx, 0.18)
 
 # ---------------------------------------------------------------- 4. ducking + mix
@@ -432,7 +438,7 @@ for i in range(0, N, 48):  # control-rate 1 kHz
 duck = 1 - 0.62 * sm
 # music dip before key statement
 dip = np.ones(N)
-i0, i1, i2 = t2i(75.7), t2i(76.2), t2i(77.0)
+i0, i1, i2 = t2i(M(75.7)), t2i(M(76.2)), t2i(M(77.0))
 dip[i0:i1] = np.linspace(1, 0.08, i1 - i0)
 dip[i1:i2] = np.linspace(0.08, 1, i2 - i1) ** 3 * 0.92 + 0.08
 MUSIC_GAIN, SFX_GAIN = 2.4, 0.8

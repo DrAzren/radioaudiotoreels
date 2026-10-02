@@ -20,11 +20,12 @@ def mmss(t):
     return f"{int(t // 60)}:{t % 60:05.2f}"
 
 lines = ["# Edit decision list", "",
-         "All audio is the original interview; segments are selected and pauses tightened only.", "",
+         "All audio is the original interview; segments are selected and long pauses gently shortened only.",
+         "Every cut sits in a gap between words; the only mid-sentence trim (\"Itu bukan cooling off lah kita panggil\") has true silence on both sides.", "",
          "| # | Reel time | Source time | Speaker | Content (first words) |", "|---|---|---|---|---|"]
 for i, s in enumerate(E["segments"], 1):
     words = [w["w"] for w in C["words"] if s["out_a"] - 0.05 <= w["t0"] < s["out_b"]]
     lines.append(f"| {i} | {mmss(s['out_a'])}–{mmss(s['out_b'])} | {mmss(s['src_a'])}–{mmss(s['src_b'])} | "
-                 f"{s['speaker']} | {' '.join(words[:9]).rstrip('.,?')}… |")
+                 f"{ {'DOKTOR': 'Dr Fakrul Azren bin Azhar', 'HOS': 'Hos radio'}[s['speaker']]} | {' '.join(words[:9]).rstrip('.,?')}… |")
 open("../output/EDL.md", "w").write("\n".join(lines) + "\n")
 print(open("../output/EDL.md").read())

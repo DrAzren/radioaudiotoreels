@@ -22,6 +22,7 @@ FIX = [
     (59.84, "konfrontasi.", "confrontation."),
     (61.28, "insting", "instinct"),
     (62.24, "mereka", "better"),
+    (57.38, "sebut.", "tersebut."),
     (69.9, "disebutkan", "disebabkan"),
     (103.04, "makanan.", "masalah."),
     (148.26, "terlalu", "malam"),
@@ -31,23 +32,19 @@ FIX = [
     (166.22, "tone", None),
     (166.88, "wall.", "stonewall."),
     (122.0, "okey.", None),
-    (105.00, "faham", "Faham,"),
-    (85.92, "pendapat", "pendapat,"),
+    (104.58, "doktor", "Doktor,"),
+    (105.00, "faham", "faham"),
+    (84.42, "contohnya", "Contohnya,"),
+    (87.14, "cakap.", "cakap,"),
     (87.60, "ayah", "ayah"),
-    (85.04, "bila", "Bila"),
     (170.54, "dia", "Dia"),
     (50.28, "sebenarnya", "Sebenarnya,"),
-    (51.0, "adik", None),
-    (51.34, "-adik", None),
     (68.0, "sikit.", None),
     (107.18, "dia", "Dia"),
+    (125.2, "dia", "Dia"),
 ]
-# timing nudges where Whisper placed a word start too early (word audibly inside the cut)
-for w in words:
-    if w["s"] == 105.0 and w["w"].lower() == "faham":
-        w["s"] = 105.42
-    if w["s"] == 125.2 and w["w"] == "dia":
-        w["s"] = 125.52
+# unconfirmed words ("... minit je" count) are left uncaptioned rather than guessed
+words = [w for w in words if not (128.0 <= w["s"] < 130.1)]
 for t, old, new in FIX:
     cand = [w for w in words if abs(w["s"] - t) < 1.6 and w["w"].lower() == old]
     if not cand:
@@ -76,7 +73,7 @@ segs = {}
 for p in E["pieces"]:
     segs.setdefault(p["seg"], []).append(p)
 seg_ranges = [(s["label"], s["src_a"], s["src_b"]) for s in E["segments"]]
-cut_ranges = [(50.66, 51.40), (55.45, 57.62), (84.30, 85.00), (86.18, 87.55), (127.90, 130.06), (161.22, 163.18)]
+cut_ranges = [tuple(c) for c in E.get("inside_cuts", [])]
 for label, sa, sb in seg_ranges:
     for w in words:
         mid = (w["s"] + min(w["e"], w["s"] + 0.6)) / 2
