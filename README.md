@@ -15,6 +15,7 @@ persoalannya: selepas kita tenang, adakah kita kembali untuk berbincang?*
 | `captions_ms.srt` | Caption track (Bahasa Melayu, corrected) for platform upload |
 | `EDL.md` | Edit decision list: every reel segment mapped to its source timestamp |
 | `contact_sheet.jpg` | Frame grid for quick review |
+| `preview_720p.mp4` | Small 720p preview (~20 MB) for sharing/review only |
 
 ## Story structure
 

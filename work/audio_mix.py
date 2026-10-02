@@ -348,8 +348,7 @@ P = place
 P(sfx, s_bass_hit(), 0.02, 0.55)
 P(sfx, s_impact(), 0.02, 0.25)
 P(sfx, s_whoosh(0.45, 400, 4000), 0.42, 0.22, -0.3)
-P(sfx, s_bass_hit(1.0), 1.2, 0.3)
-P(sfx, s_whoosh(0.4, 300, 2500), 1.95, 0.12, 0.3)
+P(sfx, s_bass_hit(0.6), 1.2, 0.12)  # under 'bukan berapa lama': keep low
 P(sfx, s_whoosh(0.4, 500, 5000), 3.55, 0.16, -0.4)
 P(sfx, s_ding(), 3.78, 0.2, 0.2)
 P(sfx, s_riser(1.6), 4.6, 0.12)
@@ -360,7 +359,7 @@ P(sfx, s_whoosh(0.4, 400, 4000), 16.4, 0.13, -0.5)
 P(sfx, s_whoosh(0.45, 400, 4500), 18.35, 0.15, 0.5)
 for tt in (22.0, 22.3, 22.6, 22.9):
     P(sfx, s_pop(900), tt, 0.12)
-P(sfx, s_impact(), 25.18, 0.12)
+P(sfx, s_impact(), 26.3, 0.08)  # after 'avoid konflik', not on it
 for tt in (26.55, 27.35, 28.15):
     P(sfx, s_heart(), tt, 0.35)
 for tt in (29.05, 29.85, 30.84, 31.75):
