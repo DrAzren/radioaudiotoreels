@@ -1,0 +1,190 @@
+{
+ "pieces": [
+  {
+   "src_a": 153.55,
+   "src_b": 158.53,
+   "out_a": 0.4,
+   "seg": "cold_open",
+   "speaker": "DOKTOR"
+  },
+  {
+   "src_a": 0.0,
+   "src_b": 1.38,
+   "out_a": 6.680000000000001,
+   "seg": "host_q1",
+   "speaker": "HOS"
+  },
+  {
+   "src_a": 60.36,
+   "src_b": 67.08,
+   "out_a": 8.51,
+   "seg": "host_q2_doc",
+   "speaker": "HOS"
+  },
+  {
+   "src_a": 67.08,
+   "src_b": 102.545,
+   "out_a": 15.229999999999999,
+   "seg": "host_q2_doc",
+   "speaker": "DOKTOR"
+  },
+  {
+   "src_a": 123.735,
+   "src_b": 126.345,
+   "out_a": 51.245,
+   "seg": "host_kids",
+   "speaker": "HOS"
+  },
+  {
+   "src_a": 127.14,
+   "src_b": 140.885,
+   "out_a": 54.305,
+   "seg": "doc_parents",
+   "speaker": "DOKTOR"
+  },
+  {
+   "src_a": 142.375,
+   "src_b": 143.47,
+   "out_a": 68.05,
+   "seg": "doc_parents",
+   "speaker": "DOKTOR"
+  },
+  {
+   "src_a": 145.165,
+   "src_b": 176.305,
+   "out_a": 69.145,
+   "seg": "doc_parents",
+   "speaker": "DOKTOR"
+  },
+  {
+   "src_a": 182.82,
+   "src_b": 189.225,
+   "out_a": 100.285,
+   "seg": "doc_parents",
+   "speaker": "DOKTOR"
+  }
+ ],
+ "segments": [
+  {
+   "label": "cold_open",
+   "speaker": "DOKTOR",
+   "out_a": 0.4,
+   "out_b": 5.380000000000001,
+   "src_a": 153.55,
+   "src_b": 158.53,
+   "gains_db": [
+    [
+     153.55,
+     "DOKTOR",
+     -0.08
+    ]
+   ],
+   "cut_db": [
+    -49.1,
+    -41.9
+   ]
+  },
+  {
+   "label": "host_q1",
+   "speaker": "HOS",
+   "out_a": 6.680000000000001,
+   "out_b": 8.06,
+   "src_a": 0.0,
+   "src_b": 1.38,
+   "gains_db": [
+    [
+     0.0,
+     "HOS",
+     -0.17
+    ]
+   ],
+   "cut_db": [
+    -90,
+    -37.9
+   ]
+  },
+  {
+   "label": "host_q2_doc",
+   "speaker": "HOS",
+   "out_a": 8.51,
+   "out_b": 50.695,
+   "src_a": 60.36,
+   "src_b": 102.545,
+   "gains_db": [
+    [
+     60.36,
+     "HOS",
+     -0.6
+    ],
+    [
+     67.08,
+     "DOKTOR",
+     0.08
+    ]
+   ],
+   "cut_db": [
+    -43.6,
+    -49.3
+   ]
+  },
+  {
+   "label": "host_kids",
+   "speaker": "HOS",
+   "out_a": 51.245,
+   "out_b": 53.855,
+   "src_a": 123.735,
+   "src_b": 126.345,
+   "gains_db": [
+    [
+     123.73,
+     "HOS",
+     0.39
+    ]
+   ],
+   "cut_db": [
+    -47.4,
+    -47.7
+   ]
+  },
+  {
+   "label": "doc_parents",
+   "speaker": "DOKTOR",
+   "out_a": 54.305,
+   "out_b": 106.69,
+   "src_a": 127.14,
+   "src_b": 189.225,
+   "gains_db": [
+    [
+     127.14,
+     "DOKTOR",
+     0.32
+    ]
+   ],
+   "cut_db": [
+    -50.8,
+    -51.4
+   ]
+  }
+ ],
+ "duration": 108.28999999999999,
+ "inside_cuts": [
+  [
+   140.885,
+   142.375
+  ],
+  [
+   143.47,
+   145.165
+  ],
+  [
+   176.305,
+   182.82
+  ]
+ ],
+ "speaker_at": [
+  [
+   67.08,
+   "DOKTOR"
+  ]
+ ]
+}

@@ -20,3 +20,9 @@ work/qc_final.*
 work/qc_tr.py
 work/stills.py
 work/qc_mix.*
+# per-episode regenerable intermediates
+work/*/*.wav
+work/*/parts/
+work/*/video_noaudio.mp4
+work/*/__pycache__/
+work/*/qc/
