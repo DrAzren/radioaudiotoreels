@@ -68,3 +68,32 @@ To re-run, put the original interview at `work/source.mp3` (it is not committed)
 
 Requirements: Python 3.11, ffmpeg, `faster-whisper numpy scipy soundfile pillow opencv-python-headless fonttools brotli`.
 Fonts (Anton, Montserrat, Inter, JetBrains Mono; SIL OFL) are in `work/fonts/`.
+
+---
+
+# Rejection & cemburu — second episode (`output/rejection_cemburu/`)
+
+A ~1:48 reel from the radio interview `Rejection.mp4` (audio only; extracted with `work/extract_mp3.sh`) with
+**Dr Fakrul Azren bin Azhar** on why rejection and jealousy hit so hard together, and how self-worth placed in a
+relationship collapses when the partner leaves.
+
+**Central message:** *Bukan semua benda kita boleh kawal dalam kehidupan kita. It's all about kita — fokus kepada
+kita punya emosi, pemikiran, tingkah laku kita. Itu yang penting sebenarnya.*
+
+| Reel time | Beat | Visual approach |
+|---|---|---|
+| 0:00–0:05 | Cold open (doctor): *"…bila pasangan tinggalkan kita, timbullah pemikiran apa yang kurang pada diri aku"* | Bed at night → mirror; **APA YANG KURANG / PADA DIRI AKU?** |
+| 0:05–0:15 | Title, radio bridge, host: *"How to handle rejection?"* / *"kenapa rejection dan cemburu… kombo emosi yang sangat kuat?"* | Title card; mic + ON AIR + live waveform; **REJECTION + CEMBURU = KOMBO EMOSI** |
+| 0:15–0:29 | Why (name lower-third): both touch something close to the self — diterima, disayangi, selamat | Rings around **DIRI KITA**; couple + need pills |
+| 0:29–0:51 | Rejection → kehilangan/ditolak; cemburu → takut ditinggalkan, dibandingkan, tak cukup penting; both at once | Platform, café list, collision **SERENTAK**, **SEDIH · MARAH · MALU · TAKUT** + heartbeat |
+| 0:51–1:13 | Host: *"Nak ajar anak-anak untuk menerima rejection."* Doctor: upbringing, **nilai diri**, most of it placed in the relationship | Mother/daughter, father/son; self-worth bar filling to 80 % **RELATIONSHIP** |
+| 1:13–1:30 | Loved → *cukup baik, selamat*; left → *apa yang kurang pada diri aku* | Ticks over couple; desaturated mirror |
+| 1:30–1:34 | Key insight (music dip + impact): **BUKAN SEMUA BENDA KITA BOLEH KAWAL.** | Kinetic type on black |
+| 1:34–1:40 | Split screen: ✗ bergantung pada pasangan (expect them to stay forever) vs ✓ dalam kawalan kita | Phone face-down vs journaling; healthy side takes over |
+| 1:40–1:48 | Takeaway: **IT'S ALL ABOUT KITA → EMOSI · PEMIKIRAN · TINGKAH LAKU → ITU YANG PENTING.** Hold, fade (no end card) | Woman walking in a park at sunrise |
+
+Files: `rejection_cemburu_1080x1920.mp4`, `preview_720p.mp4`, `captions_ms.srt`, `EDL.md`, `contact_sheet.jpg`.
+Pipeline: `work/rejection/` (`edit_audio.py` → `transcribe_edit.py` → `build_captions.py` → `reel.py`/`render_all.sh`
+→ `audio_mix.py` → `master.sh`, `make_docs.py`; cut-planning helpers `words.py`, `contour.py`, `verify_segments.py`).
+B-roll: 13 Canva AI stills in `work/rejection/broll/` (+ the generic studio mic). All people shown are AI-generated;
+tick the platform's "AI-generated content" label when posting.
