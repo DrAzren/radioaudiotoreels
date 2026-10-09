@@ -45,6 +45,11 @@ persoalannya: selepas kita tenang, adakah kita kembali untuk berbincang?*
 - Childhood section shows a stern parent silhouette and a quiet child only. No physical abuse, no blame.
 - Both men and women appear as the one who withdraws and the one who waits.
 
+## Next episode
+
+Use [`prompts/next_radio_reel_prompt.md`](prompts/next_radio_reel_prompt.md). Attach an MP4 or MP3; video files are
+converted with `work/extract_mp3.sh <video> work/source.mp3` and only the MP3 is used.
+
 ## Pipeline (`work/`)
 
 1. `transcribe.py`: faster-whisper large-v3 word-level transcript of the source.
