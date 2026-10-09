@@ -1,8 +1,10 @@
 import json, sys, os
 from faster_whisper import WhisperModel
 m = WhisperModel(sys.argv[1], device="cpu", compute_type="int8", cpu_threads=4)
-src = os.environ.get("SRC", "src16k.wav")
-segs, info = m.transcribe(src, language="ms", word_timestamps=True, beam_size=5, vad_filter=False,
+import soundfile as sf
+audio, _sr = sf.read(os.environ.get("SRC", "src16k.wav"), dtype="float32")  # 16 kHz mono; avoids PyAV version issues
+assert _sr == 16000
+segs, info = m.transcribe(audio, language="ms", word_timestamps=True, beam_size=5, vad_filter=False,
     initial_prompt=os.environ.get("PROMPT", "Temu bual radio Kool FM tentang relationship, space, avoid conflict, confrontation, emotionally overwhelmed, stonewalling, silent treatment."))
 out=[]
 for s in segs:

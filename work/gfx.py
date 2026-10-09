@@ -13,6 +13,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 W, H, FPS = 1080, 1920, 30
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONT_DIR = os.path.join(HERE, "fonts")
+BROLL_DIR = os.environ.get("BROLL_DIR", os.path.join(HERE, "broll"))  # per-episode stills
 
 # palette (sRGB 0-1)
 def hexc(h):
@@ -95,7 +96,7 @@ _IMG = {}
 
 def load(name):
     if name not in _IMG:
-        im = cv2.imread(os.path.join(HERE, "broll", name + ".png"), cv2.IMREAD_COLOR)
+        im = cv2.imread(os.path.join(BROLL_DIR, name + ".png"), cv2.IMREAD_COLOR)
         im = cv2.cvtColor(im, cv2.COLOR_BGR2RGB).astype(np.float32) / 255
         if im.shape[:2] != (H, W):
             im = cv2.resize(im, (W, H), interpolation=cv2.INTER_LANCZOS4)
