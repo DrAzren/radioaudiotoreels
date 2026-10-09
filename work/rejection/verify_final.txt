@@ -1,0 +1,16 @@
+[cold_open]   0.35-  5.43  first Tapi@0.00(p0.92)  last aku.@4.94(p0.74)
+    Tapi bila pasangan tinggalkan kita, timbullah pemikiran apa yang kurang pada diri aku.
+[host_q1]   6.63-  8.11  first How@0.00(p0.37)  last rejection?@1.12(p0.05)
+    How to handle rejection?
+[host_q2_doc]   8.46- 50.74  first Doktor,@0.00(p0.96)  last tu.@42.04(p1.00)
+    Doktor, kenapa rejection dan cemburu ini sebenarnya boleh menjadi satu kombo emosi yang sangat kuat? Ya, kombo yang sangat kuat. Okey, sebab dua-dua emosi ini dia sentuh benda yang basically sangat dekat dengan diri kita lah iaitu of course rasa diterima, rasa disayangi, kita akan rasa selamat dalam perhubungan itu. Tapi bila kita mengalami rejection, kita akan rasa kehilangan ataupun rasa ditolak. Tapi bila datang pula dengan cemburu tu dia akan rasa macam takut ditinggalkan, rasa dibandingkan ataupun kita rasa macam kita tak cukup penting. Tapi bila kedua-duanya berlaku serentak seseorang tu dia boleh rasa sedih, marah, malu, takut dalam satu masa tu.
+[host_kids]  51.20- 53.90  first Nak@0.00(p0.37)  last rejection.@2.22(p0.95)
+    Nak ajar anak-anak untuk menerima rejection.
+[doc_parents]  54.26-106.74  first Sebenarnya,@0.00(p0.88)  last sebenarnya.@52.26(p1.00)
+    Sebenarnya, ialah sebab rejection ni pun kalau kita tengok, dia boleh jadi sebabkan oleh cara kita dibesarkan oleh ibu bapa kita lah. Macam mana ibu bapa terapkan anak-anak ni untuk mengali nilai diri mereka ni. Kita ni mungkin meletakkan bahagian besar nilai diri kita ni kepada relationship kita. Maksudnya kalau pasangan sayang kita, kita rasa cukup baik lah, sangat baik, sangat selamat. Tapi bila pasangan tinggalkan kita, timbullah pemikiran apa yang kurang pada diri aku ni kan. So apa yang kita buat adalah sebenarnya kita boleh ajar satu benda lah iaitu bukan semua benda kita boleh kawal dalam kehidupan kita. Kita tak boleh aspek yang pasangan kita akan berada dengan kita selama-lamanya. It's all about kita. Fokus kepada kita punya emosi, pemikiran, tingkah laku kita. Itu yang penting sebenarnya.
+[cut@68.05]  65.05- 71.05  first ...anak@0.00(p0.64)  last diri...@5.98(p0.89)
+    ...anak-anak ni untuk mengali nilai diri mereka ni. Kita ni mungkin meletakkan bahagian besar nilai diri...
+[cut@69.14]  66.14- 72.14  first Untuk@0.00(p0.60)  last relationship.@5.78(p0.16)
+    Untuk mengenali nilai diri mereka ni. Kita ni mungkin meletakkan bahagian besar nilai diri kita ni kepada relationship.
+[cut@100.28]  97.28-103.28  first Dengan@0.00(p0.55)  last punya.@5.86(p1.00)
+    Dengan kita akan berada, dengan kita selama-lamanya. It's all about kita. Focus kepada kita punya.
